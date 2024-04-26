@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+    // new Function()
+    // foo.__proto__ === Function.prototype
+    function foo(name, age) {
+        console.log(this, name, age)
+    }
+
+    // 1.对象中的某些属性和方法是来自Function.prototype
+    // test.__proto__ === Function.prototype
+    function test() {}
+
+    // foo当做一个对象, 获取apply方法
+    // foo.apply("abc", ["why", 18])
+    // console.log(Function.prototype.call)
+    // console.log(Function.prototype.apply)
+    // console.log(Function.prototype.apply === foo.apply)
+    // console.log(foo.__proto__ === Function.prototype)
+    // console.log(foo)
+    // 2.在Function.prototype中添加的属性和方法, 可以被所有的函数获取
+    Function.prototype.info = "hello why"
+    console.log(test.info)
+    console.log(foo.info)
+    Function.prototype.bar = function() {
+        console.log("bar function execution")
+    }
+    test.bar()
+    foo.bar()
+
+    arguments = [1, 2, 3]
+    Array.prototype.slice.apply(arguments);
+    console.log([].slice.apply(arguments))
+    function example() {
+        var args = Array.prototype.slice.apply(arguments);
+        // 现在args是一个真正的数组，可以使用例如map, filter等数组方法
+        return args.filter(function(e) {
+            return typeof e === 'number';
+        });
+    }
+
+    console.log(example(1, 'a', 2, 'b', 3)); // 返回 [1, 2, 3]
+
+</script>
+
+</body>
+</html>

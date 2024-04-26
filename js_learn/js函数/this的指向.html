@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function foo(){
+            console.log(this);
+        }
+        foo();
+        peron = {
+            name: 'byteman',
+            say: function(){
+                console.log(this);
+            }
+        }
+        peron.say();
+        fn = peron.say;
+        fn();
+    </script>
+</body>
+</html>

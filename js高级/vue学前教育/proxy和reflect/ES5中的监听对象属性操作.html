@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        const obj = {
+            name: "why",
+            age: 18,
+            height: 1.88,
+            friend: {
+                name: "curry"
+            }
+        }
+
+        const keys = Object.keys(obj)
+        // console.log(keys)
+        // keys.forEach(key => {
+        //     console.log(key, obj[key])
+        // })
+
+        for (let i = 0; i < keys.length; i++) {
+            // console.log(key, typeof key, obj[key])
+            let val = obj[keys[i]]
+            Object.defineProperty(obj, key, {
+                get: function () {
+                    console.log(`监听到了属性${key}的获取操作`)
+                    return val
+                },
+                set: function (newVal) {
+                    console.log(`监听到了属性${key}的修改操作`)
+                    val = newVal
+                }
+            })
+        }
+
+        obj.name = "kobe"
+        obj.age = 40
+        obj["friend"]["name"] = "wade"
+    </script>
+</body>
+</html>

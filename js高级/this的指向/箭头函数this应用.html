@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    function request (url, callbackfn) {
+      var results = ['abc', 'cba', 'nba']
+      callbackfn(results)
+    }
+
+    var obj = {
+      name: [],
+      foo: function () {
+        request('http://www.baidu.com', (results) =>{
+          console.log(this)
+          this.name = this.name.concat(results)
+          console.log(this.name)
+        })
+      }
+    }
+
+    obj.foo()
+  </script>
+</body>
+</html>

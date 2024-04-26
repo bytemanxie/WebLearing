@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        {
+            // TDZ开始
+            // a 在此处是不可访问的
+            //console.log(a); // ReferenceError: Cannot access 'a' before initialization
+            console.log(b); // undefined，因为var声明的变量会提升
+            let a = 3;
+            var b = 5;
+            // TDZ结束
+            console.log(a); // 3
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        // var arrFn = () => ["abc", "cba"]
+        // var arrFn = () => {} // 注意: 这里是{}执行体
+        var arrFn = () => ({ name: "why" })
+        console.log(arrFn())
+
+        // 箭头函数实现nums的所有偶数平方的和
+        var nums = [20, 30, 11, 15, 111]
+        var result = nums.filter(item => item % 2 === 0)
+            .map(item => item * item)
+            .reduce((prevValue, item) => prevValue + item)
+        console.log(result)
+    </script>
+</body>
+</html>

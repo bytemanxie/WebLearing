@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        // let [x, , z] = [1, 2, 3];
+        // console.log(x); // 1
+        // console.log(z); // 3
+        //
+        // let [a = 5, b = 7] = [1];
+        // console.log(a); // 1
+        // console.log(b); // 7
+
+        //对象解构
+        // let {a, b} = {a: 1, b: 2};
+        // console.log(a); // 1
+        // console.log(b); // 2
+        //
+        obj = {a: 1, b: 2}
+        let {a, b: y} = obj;
+        // console.log(x); // 1
+        console.log(y); // 2
+        // x = 3;
+        a = 3
+        console.log(obj.a);
+
+        // let {a = 10, b = 5, c} = {a: 3, c: 6};
+        // console.log(a); // 3
+        // console.log(b); // 5
+        // console.log(c); // undefined
+
+
+
+        function greet({name, age, sex}) {
+            console.log(`Hello, my name is ${name} and I'm ${age} years old ${sex}.`);
+        }
+
+        greet({name: "Sarah", age: 30, sex:"male"});
+
+    </script>
+</body>
+</html>

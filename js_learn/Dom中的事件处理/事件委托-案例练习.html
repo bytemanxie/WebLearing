@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .active {
+           font-size: 20px;
+            color: #6e4ded;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+    </ul>
+    <script>
+        var ul = document.querySelector('ul');
+        // var lis = ul.querySelectorAll('li');
+        // for (var li of lis) {
+        //     li.onclick = function(event) {
+        //         // this.classList.add('active');
+        //         event.target.classList.add('active');
+        //     }
+        // }
+
+        //在ul中监听
+        // ul.onclick = function (event) {
+        //     event.target.classList.add('active');
+        // }
+
+        //给最新的点击增加active属性，同时删除其他的active属性
+        // ul.onclick = function (event) {
+        //     var lis = ul.querySelectorAll('li');
+        //     for(var i = 0; i < lis.length; i++) {
+        //         lis[i].classList.remove('active');
+        //     }
+        //     event.target.classList.add('active');
+        // }
+
+        var activeLi = ul.children[5];
+        ul.children[5].classList.add('active');
+        ul.onclick = function (event) {
+            console.log(event.target.tagName);
+            if (event.target.tagName === 'LI') {
+                if (activeLi) {
+                    activeLi.classList.remove('active');
+                }
+                activeLi = event.target;
+                activeLi.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>

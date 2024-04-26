@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 class="item"></h1>
+    <script>
+        var timeEl = document.querySelector('.item');
+        function padLeft(num, cnt=2, fill='0'){
+            num = String(num);
+            return num.padStart(cnt, fill);
+        }
+        setInterval(function() {
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = padLeft(date.getMonth() + 1);
+            var day = padLeft(date.getDate());
+            var h = padLeft(date.getHours());
+            var m = padLeft(date.getMinutes());
+            var s = padLeft(date.getSeconds());
+
+            timeEl.textContent = `${year}年-${month}月-${day}日-${h}时-${m}分-${s}秒`;
+        }, 1000);
+    </script>
+</body>
+</html>

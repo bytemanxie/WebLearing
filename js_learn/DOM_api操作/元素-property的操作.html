@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="checkbox" checked>
+    输入 <input class='zhanghao' type="text" value="123">
+    <script>
+        var inputele = document.querySelector('input');
+        if(inputele.checked) {
+            console.log('选中');
+        } else {
+            console.log('未选中');
+        }
+        console.log(inputele.checked, typeof inputele.checked);
+
+        var textele = document.querySelector('.zhanghao');
+        console.log(textele.value, typeof textele.value);
+        textele.value = '456adafsdg';
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .act {
+            background-color: red;
+            color: white;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">我是divbox</div>
+    <button class="btn">切换</button>
+    <script>
+        var box = document.querySelector('.box');
+        var btn = document.querySelector('.btn');
+        btn.onclick = function() {
+            box.classList.toggle('act');
+        }
+    </script>
+</body>
+</html>

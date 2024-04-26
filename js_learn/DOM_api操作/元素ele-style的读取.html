@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            font-size: 20px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" style="background-color: red;">
+        我是div-box
+    </div>
+    <script>
+        var box = document.querySelector('.box');
+        console.log(box.style.backgroundColor);
+        console.log(getComputedStyle(box).fontSize);
+        console.log(getComputedStyle(box).width);
+        console.log(box.style);
+    </script>
+</body>
+</html>

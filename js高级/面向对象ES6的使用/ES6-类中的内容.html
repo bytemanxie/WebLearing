@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+    class Person {
+      constructor(name, age) {
+        this.name = name
+        this.age = age
+      }
+
+      running() {
+        console.log(this.name + " is running~")
+      }
+
+      eating() {
+        console.log("eating~")
+      }
+
+      singing() {
+        console.log(this.name + " is singing~")
+      }
+    }
+
+    const p1 = new Person("why", 18)
+    p1.running()
+
+    const p2 = new Person("kobe", 30)
+    p2.running()
+
+    const p3 = new Person("byteman", 25)
+    p3.running()
+
+    p3.singing()
+
+  </script>
+</body>
+</html>

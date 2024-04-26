@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 200px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <button>添加</button>
+        <button>删除</button>
+        <button>修改</button>
+    </div>
+    <script>
+        var btels = document.querySelectorAll('button');
+        // for (var btel of btels){
+        //     btel.onmouseover = function (event){
+        //         console.log(event.target.textContent);
+        //     }
+        // }
+        // for (let i = 0; i < btels.length; i++){
+        //     btels[i].onmouseover = function (){
+        //         console.log(btels[i].textContent);
+        //     }
+        // }
+        var boxel = document.querySelector('.box');
+        boxel.onmouseover = function (event){
+            if(event.target.tagName === 'BUTTON'){
+                console.log(event.target.textContent);
+            }
+        }
+    </script>
+</body>
+</html>

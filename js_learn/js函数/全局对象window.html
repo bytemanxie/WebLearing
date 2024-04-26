@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        console.log(window);
+        function foo(){
+            console.log(window.console === console);
+            console.log(window.Object === Object);
+        }
+        foo();
+    </script>
+</body>
+</html>

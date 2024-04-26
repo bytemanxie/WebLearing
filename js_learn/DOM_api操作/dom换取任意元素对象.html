@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="box">
+        <h2>我是h2标题</h2>
+        <div class="container">
+            <p>
+                我是段落1<span class="keyword">我是span1</span>
+            </p>
+            <p>
+                我是段落2<span class="keyword">我是span2</span>
+            </p>
+        </div>
+        <div id="title">我是标题</div>
+    </div>
+
+    <script>
+        // //通过clasname获取
+        // var keywordEl = document.getElementsByClassName('keyword');
+        // console.log(keywordEl);
+        // for(var i = 0; i < keywordEl.length; i++) {
+        //     keywordEl[i].style.color = 'red';
+        // }
+        // //通过id获取
+        // var titleEl = document.getElementById('title');
+        // titleEl.style.color = 'blue';
+
+        //通过选择器查询
+        var keywordEl = document.querySelectorAll('.keyword');
+        for(var el of keywordEl) {
+            el.style.color = '#a8354d';
+        }
+        var titleEl = document.querySelector('#title');
+        titleEl.style.color = '#894d3a';
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="box">
+        <span>我是span</span>
+        <p>我是p</p>
+    </div>
+
+    <script>
+        var box = document.querySelector('.box');
+        var h2El = document.createElement('h2');
+        h2El.className = 'title';
+        h2El.classList.add('act');
+        h2El.textContent = '我是h2';
+        box.append(h2El);
+
+        var spanEl = document.createElement('span');
+        spanEl.textContent = '我是添加span';
+        // box.before(spanEl);
+        box.after(spanEl);
+        // box.replaceWith(spanEl);
+    </script>
+</body>
+</html>

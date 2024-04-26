@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    // let map = new Map();
+    //
+    // // 设置键值对
+    // map.set('key1', 'value1');
+    // map.set('key2', 'value2');
+    //
+    // // 获取值
+    // console.log(map.get('key1'));  // 输出: value1
+    //
+    // // 检查键是否存在
+    // console.log(map.has('key2'));  // 输出: true
+    //
+    // // 获取Map大小
+    // console.log(map.size);  // 输出: 2
+    //
+    // // 删除键
+    // map.delete('key2');
+    // console.log(map.has('key2'));  // 输出: false
+    //
+    // map.set('key3', 'value3');
+    // console.log(map.get('key3'));  // 输出: value3
+    // // 清空Map
+    // map.clear();
+    // console.log(map.size);  // 输出: 0
+
+    // map = new Map();
+    // console.log(Map.prototype, Object.getPrototypeOf(Map));
+    // map.set('key1', 'value1');
+    // map.set('key2', 'value2');
+    //
+    // // 遍历所有的键值对
+    // map.forEach((valu, key) => {
+    //     console.log(key + ' = ' + valu);
+    // });
+    //
+    // // 使用for...of遍历键值对
+    // for (let [key, value] of map) {
+    //     console.log(key + ' = ' + value);
+    // }
+    set = new Set();
+    set.add('apple');
+    set.add('banana');
+    obj = {
+        name:"byteman",
+        pro:{
+            sex: "male",
+            age: 18
+        }
+    }
+    set.add(obj);
+    // 遍历所有值
+    set.forEach(value => {
+        console.log(value);
+    });
+
+    // 使用for...of遍历值
+    for (let value of set) {
+        console.log(value);
+    }
+
+  </script>
+</body>
+</html>

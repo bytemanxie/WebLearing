@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button class="add">+</button>
+  <button class="minus">-</button>
+    <div class="box">0</div>
+  <script>
+      var add = document.querySelector('.add');
+        var minus = document.querySelector('.minus');
+      var cnt = 0;
+      var box = document.querySelector('.box');
+        add.onclick = function() {
+            box.textContent = ++cnt;
+        }
+        minus.onclick = function() {
+            box.textContent = --cnt;
+        }
+
+
+  </script>
+</body>
+</html>

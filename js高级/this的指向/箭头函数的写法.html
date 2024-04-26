@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function foo1() {}
+        var foo2 = function(name, age) {
+            console.log("函数体代码", this, arguments)
+            console.log(name, age)
+        }
+        foo2("byteman", 18)
+
+        var foo3 = (name, age) => {
+            console.log("箭头函数的函数体")
+            console.log(name, age)
+        }
+
+        foo3("byteman", 18)
+
+        var names = ["abc", "cba", "nba"]
+        names.forEach(item => console.log(item))
+
+        setTimeout(() =>
+            console.log("setTimeout")
+        , 3000)
+    </script>
+</body>
+</html>

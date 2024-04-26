@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!--    内部-->
+<!--    <a class="baidu" href="http://www.baidu.com" target="_blank" onclick="alert('百度一下')">百度</a>-->
+    <!--    在script内部-->
+
+    <a class="baidu" href="http://www.baidu.com" target="_blank">百度</a>
+    <a class="bing" href="http://www.bing.com" target="_blank">必应</a>
+    <script>
+        var a = document.querySelector('.baidu');
+        a.onclick = function () {
+            alert('百度一下');
+        }
+
+    </script>
+    <script src="./js/bing.js"></script>
+</body>
+</html>

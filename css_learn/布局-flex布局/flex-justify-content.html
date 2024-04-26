@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>flex-direction</title>
+    <meta charset="utf-8">
+    <style>
+        .flex-container {
+            display: flex;
+            /*flex-direction: column; !* 设置flex子项沿垂直方向排列 *!*/
+            background-color: LightGray;
+            height: 200px; /* 指定容器高度，以便在垂直方向上看到布局效果 */
+            width: 600px;
+            /*flex-wrap: wrap;*/
+            /*justify-content: center;*/
+            /*justify-content: center;*/
+            /*justify-content: space-between;*/
+            /*padding: 20px;*/
+            justify-content: space-around;
+            box-sizing: border-box;
+        }
+
+
+        .flex-item {
+            background-color: CornflowerBlue;
+            color: white;
+            /*margin: 10px;*/
+            /*padding: 20px;*/
+            font-size: 30px;
+            height: 70px;
+            /*margin: 0 10px;*/
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="flex-container">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+    <div class="flex-item">3</div>
+    <div class="flex-item">3</div>
+</div>
+
+</body>
+</html>

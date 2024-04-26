@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var arr = [1, 2, 3, 4, 5];
+        arr.forEach(function (value, index) {
+            arr[index] *= 2;
+        });
+        console.log(arr);
+
+        // const numbers = [1, 2, 3, 4, 5, 6];
+        //
+        // const evenNumbers = numbers.filter(function (number) {
+        //     return number % 2 === 0;
+        // });
+        // console.log(evenNumbers); // 输出: [2, 4, 6]
+        //
+        // const numbers = [1, 2, 3, 4];
+        //
+        // const squares = numbers.map(function (number) {
+        //     return number * number;
+        // })
+        // console.log(squares); // 输出: [1, 4, 9, 16]
+
+        const numbers = [1, 2, 3, 4];
+
+        const sum = numbers.reduce(function (pre, cur) {
+            console.log(pre, cur);
+            return pre + cur;
+        }, 0);
+        console.log(sum); // 输出: 10
+
+
+    </script>
+</body>
+</html>

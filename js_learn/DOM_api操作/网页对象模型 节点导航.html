@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!-- 我是注释 -->
+    我是文本
+    <div class="box">我是divbox</div>
+    <ul>
+        <li>我是li1</li>
+        <li>我是li2</li>
+        <li>我是li3</li>
+        <li>我是li4</li>
+        <li>我是li5</li>
+    </ul>
+
+    <script>
+        var bodyEle = document.body;
+        console.log(bodyEle.childNodes);
+        var bodyfirstChild = bodyEle.firstChild;
+        console.log(bodyfirstChild);
+        var bodyElfisrtcomment = bodyEle.firstChild.nextSibling;
+        console.log(bodyElfisrtcomment);
+
+        var bodyparent = bodyEle.parentNode;
+        console.log(bodyparent);
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="box">
+        <button data-action="click">点击</button>
+        <button data-action="add">添加</button>
+        <button data-action="delete">删除</button>
+        <button>111</button>
+    </div>
+    <script>
+        var box = document.querySelector('.box');
+        box.onclick = function (event){
+            console.log(event.target);
+            var btel = event.target;
+            var action = btel.dataset.action;
+            // console.log(action);
+            switch (action){
+                case 'click':
+                    // alert('点击');
+                    console.log('点击');
+                    break;
+                case 'add':
+                    // alert('添加');
+                    console.log('添加');
+                    break;
+                case 'delete':
+                    // alert('删除');
+                    console.log('删除');
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>

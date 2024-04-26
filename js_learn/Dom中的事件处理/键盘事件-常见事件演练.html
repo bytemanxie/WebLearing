@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="text">
+    <button class="btn">搜索</button>
+    <script>
+        var input = document.querySelector('input');
+        var btn = document.querySelector('.btn');
+        btn.onclick = function (event){
+            console.log(input.value);
+        }
+        input.onkeyup = function (event){
+            if(event.code === 'Enter'){
+                console.log(input.value);
+            }
+        }
+
+        document.onkeyup = function (event){
+            // console.log(event.code, event.key);
+            if(event.code === 'KeyS'){
+                input.focus();
+            }
+        }
+    </script>
+</body>
+</html>

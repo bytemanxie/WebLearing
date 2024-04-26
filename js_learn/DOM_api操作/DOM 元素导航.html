@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!-- 我是注释 -->
+    我是文本
+    <div class="box">我是divbox</div>
+    <ul>
+        <li>我是li1</li>
+        <li>我是li2</li>
+        <li>我是li3</li>
+        <li>我是li4</li>
+        <li>我是li5</li>
+    </ul>
+
+    <script>
+        var bodyEle = document.body;
+        var chileEle = bodyEle.children;
+        console.log(chileEle);
+
+        //获取第一个子元素
+        var box = bodyEle.firstElementChild;
+        console.log(box);
+        console.log(box === bodyEle.children[0]);
+
+        var ulEle = bodyEle.children[1];
+        console.log(ulEle);
+        console.log(ulEle === box.nextElementSibling);
+    </script>
+</body>
+</html>

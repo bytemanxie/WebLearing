@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var students = [
+            {id:100, name:'byteman', age:18},
+            {id:101, name:'daddfaf', age:19},
+            {id:102, name: 'fsgsgsg', age:20},
+            {id:103, name: 'gsgsgsg', age:21},
+            {id:104, name: 'hshshsh', age:22}
+        ]
+        var stu = students.find(function (item) {
+            return item.id === 102;
+        })
+        console.log(stu);
+    </script>
+</body>
+</html>

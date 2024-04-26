@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    // var obj = {
+    //   name: "obj",
+    //   foo: () => {
+    //     console.log("foo:", this)
+    //     var bar = () => {
+    //       console.log("bar:", this)
+    //     }
+    //     return bar
+    //   }
+    // }
+    // // var fn = obj.foo()
+    // // fn.apply("bbb")
+    // obj.foo()()
+    var obj = {
+      name: "obj",
+      foo: function () {
+        console.log("foo:", this)
+        var bar = () => {
+          console.log("bar:", this)
+        }
+        return bar
+      }
+    }
+    // var fn = obj.foo()
+    // fn.apply("bbb")
+    obj.foo()()
+  </script>
+</body>
+</html>

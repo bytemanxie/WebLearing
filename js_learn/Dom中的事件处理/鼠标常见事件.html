@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">我是div-box</div>
+    <script>
+        var box = document.querySelector('.box');
+
+        var down = false;
+        box.onmousemove = function (event){
+            if(down){
+                console.log("我在移动鼠标");
+            }
+        }
+
+        box.onmousedown = function (event){
+            down = true;
+            console.log("我被按下了");
+        }
+
+        box.onmouseup = function (event){
+            down = false;
+            console.log("我被松开了");
+        }
+
+    </script>
+</body>
+</html>

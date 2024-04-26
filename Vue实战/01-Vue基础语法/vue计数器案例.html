@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script src="./lib/vue.js"></script>
+    <div id="app">
+        <h2>{{counter}}</h2>
+        <button @click="add">+1</button>
+        <button @click="sub">-1</button>
+    </div>
+    <script>
+        const app = Vue.createApp({
+            data: function(){
+                return{
+                    counter: 0
+                };
+            },
+            methods: {
+                add: function(){
+                    this.counter++
+                },
+                sub: function(){
+                    this.counter--
+                }
+            }
+        })
+        app.mount("#app")
+    </script>
+</body>
+</html>

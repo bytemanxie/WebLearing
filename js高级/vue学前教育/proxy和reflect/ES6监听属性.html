@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        obj = {
+            name: "why",
+            age: 18,
+            height: 1.88,
+            friend: {
+                name: "curry"
+            }
+        }
+
+        const proxy = new Proxy(obj, {
+            get(target, key) {
+                console.log(`监听到了属性${key}的获取操作`)
+                return target[key]
+            },
+            set(target, key, value) {
+                console.log(`监听到了属性${key}的修改操作,改为${value}`)
+                target[key] = value
+            }
+        })
+
+        const p1 = new Proxy(obj.friend, {
+            get(target, key) {
+                console.log(`监听到了1属性${key}的获取操作`)
+                return target[key]
+            },
+            set(target, key, value) {
+                console.log(`监听到了1属性${key}的修改操作,改为${value}`)
+                target[key] = value
+            }
+        })
+
+        proxy.name = "kobe"
+        proxy.age = 40
+        console.log(proxy.friend.name)
+        proxy.friend.name = "wade"
+        console.log(proxy.friend.name)
+        p1.name = "wade"
+    </script>
+</body>
+</html>
