@@ -15,6 +15,9 @@
     thead {
       background-color: #f5f5f5;
     }
+    .active {
+      background-color: #5a62ae;
+    }
   </style>
 </head>
 <body>
@@ -32,7 +35,7 @@
       </tr>
       </thead>
       <tbody>
-      <tr v-for="(book, index) in books">
+      <tr v-for="(book, index) in books" @click="choose(index)" :class="{active: index === curindex}">
         <td>{{ index + 1 }}</td>
         <td>{{ book.name }}</td>
         <td>{{ book.date }}</td>
@@ -62,7 +65,8 @@
   const app = Vue.createApp({
     data() {
       return {
-        books
+        books,
+        curindex: -1
       }
     },
     computed: {
@@ -87,6 +91,9 @@
       },
       remove(index) {
         this.books.splice(index, 1)
+      },
+      choose(idx){
+        this.curindex = idx
       }
     }
   })

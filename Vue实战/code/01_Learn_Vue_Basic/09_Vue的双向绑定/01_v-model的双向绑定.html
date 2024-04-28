@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app button{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+<!--    登录功能-->
+    <label for="account">
+        账号：<input id="account" type="text" v-model="account">
+    </label>
+    <label for="password">
+        密码：<input id="password" type="password" v-model="password">
+    </label>
+    <button @click="login">登录</button>
+</div>
+
+<script src="../lib/vue.js"></script>
+<script>
+    const app = Vue.createApp({
+        data(){
+            return {
+                account: '',
+                password: ''
+            }
+        },
+        methods:{
+            login(){
+                console.log(this.account, this.password)
+            }
+        }
+    })
+    app.mount('#app')
+</script>
+</body>
+</html>

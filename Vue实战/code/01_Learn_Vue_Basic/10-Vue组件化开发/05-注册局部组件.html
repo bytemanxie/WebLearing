@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <home-nav></home-nav>
+
+    <product-item></product-item>
+
+    <product-item2></product-item2>
+</div>
+
+<template id="product">
+    <div class="product">
+        <h2>{{title}}</h2>
+        <p>商品描述, 限时折扣, 赶紧抢购</p>
+        <p>价格: {{price}}</p>
+        <button>收藏</button>
+    </div>
+</template>
+
+<template id="item1">
+    <div class="product">
+        <h2>iphone15</h2>
+        <div>{{title}}</div>
+        <div>商品价格: <span>{{price}}</span></div>
+        <p>iphone15, {{price}}秒杀</p>
+    </div>
+</template>
+
+<template id="nav">
+    <div>-------------------- nav start ---------------</div>
+    <h1>我是home-nav的组件</h1>
+    <product-item></product-item>
+    <product-item2></product-item2>
+    <div>-------------------- nav end ---------------</div>
+</template>
+
+<script src="../lib/vue.js"></script>
+<script>
+    // 1.创建app
+    const ProductItem = {
+        template: "#product",
+        data() {
+            return {
+                title: "我是product的title",
+                price: 9.9
+            }
+        }
+    }
+
+    const ProductItem2 = {
+        template: "#item1",
+        data() {
+            return {
+                title: "我是product2的title",
+                price: 19.9
+            }
+        }
+    }
+
+    const HomeNav = {
+        template: "#nav",
+        components: {
+            ProductItem,
+            ProductItem2
+        }
+    }
+
+    // 1.1.组件打算在哪里被使用
+    const app = Vue.createApp({
+        // components: option api
+        components: {
+            ProductItem,
+            HomeNav,
+            ProductItem2
+        },
+        // data: option api
+        data() {
+            return {
+                message: "Hello Vue"
+            }
+        }
+    })
+
+    // 2.挂载app
+    app.mount("#app")
+</script>
+</body>
+</html>
