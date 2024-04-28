@@ -4,56 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/09_Vue的双向绑定/01_v-model的双向绑定.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/09_Vue的双向绑定/02-v-model绑定textarea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/09_Vue的双向绑定/03-绑定checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/09_Vue的双向绑定/04-绑定radio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/09_Vue的双向绑定/05-select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/09_Vue的双向绑定/值绑定.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/10-Vue组件化开发/01-根组件的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/10-Vue组件化开发/02-注册全局组件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/10-Vue组件化开发/03-组件自身的逻辑.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/10-Vue组件化开发/04-全局组件特点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/10-Vue组件化开发/05-注册局部组件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/02_Learn_Project/01_product_demo/src/components/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/02_Learn_Project/01_product_demo/src/components/MyIphone.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/02_Learn_Project/01_product_demo/src/components/ProductItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/Vue的CDN引入.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/Vue的CDN引入.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/lib/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/lib/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/option-data属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/option-data属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/vue动态列表数据.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/vue动态列表数据.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/vue动态数据.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/vue动态数据.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/vue的本地导入.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/vue的本地导入.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/vue计数器案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/vue计数器案例.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/02-Vue模板语法/01-插值语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/02-Vue模板语法/01-插值语法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/02-Vue模板语法/02-v-bind的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/02-Vue模板语法/02-v-bind的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/02-Vue模板语法/03-v-bind绑定class属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/02-Vue模板语法/03-v-bind绑定class属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/02-Vue模板语法/04-v-bind绑定style属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/02-Vue模板语法/04-v-bind绑定style属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/02-Vue模板语法/v-bind直接绑定对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/02-Vue模板语法/v-bind直接绑定对象.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/03-Vue事件绑定/01-事件绑定基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/03-Vue事件绑定/01-事件绑定基本使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/03-Vue事件绑定/02-绑定事件参数传递.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/03-Vue事件绑定/02-绑定事件参数传递.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/04-Vue条件渲染/01-需求demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/04-Vue条件渲染/01-需求demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/04-Vue条件渲染/02-v-if-else.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/04-Vue条件渲染/02-v-if-else.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/04-Vue条件渲染/03-template使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/04-Vue条件渲染/03-template使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/04-Vue条件渲染/04-条件渲染案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/04-Vue条件渲染/04-条件渲染案例.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/04-Vue条件渲染/05-v-show使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/04-Vue条件渲染/05-v-show使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/05-Vue列表渲染/01-v-for的基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/05-Vue列表渲染/01-v-for的基本使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/05-Vue列表渲染/02-v-for其他类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/05-Vue列表渲染/02-v-for其他类型.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/05-Vue列表渲染/03-v-for和template.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/05-Vue列表渲染/03-v-for和template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/05-Vue列表渲染/04-数组更新检测.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/05-Vue列表渲染/04-数组更新检测.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/06_Vue的computed/01-复杂数据methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/06_Vue的computed/01-复杂数据methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/06_Vue的computed/02-复杂数据computed.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/06_Vue的computed/02-复杂数据computed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/07_Vue的watch侦听/01-data的watch.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/07_Vue的watch侦听/01-data的watch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/07_Vue的watch侦听/02-Vue的watch侦听选项.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/07_Vue的watch侦听/02-Vue的watch侦听选项.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/08_Vue阶段案例/01-购物车界面搭建.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/08_Vue阶段案例/01-购物车界面搭建.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/08_Vue阶段案例/02-购物车总价格计算.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/08_Vue阶段案例/02-购物车总价格计算.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/08_Vue阶段案例/03-购物车操作数量处理.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/08_Vue阶段案例/03-购物车操作数量处理.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/08_Vue阶段案例/data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/08_Vue阶段案例/data/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/08_Vue阶段案例/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/08_Vue阶段案例/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/lib/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/lib/vue.js" afterDir="false" />
-    </list>
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="4.27" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -285,7 +236,7 @@
       <workItem from="1714184903408" duration="9775000" />
       <workItem from="1714218725649" duration="11358000" />
       <workItem from="1714236612225" duration="1000" />
-      <workItem from="1714266852863" duration="401000" />
+      <workItem from="1714266852863" duration="1100000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -311,6 +262,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="4.27" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.27" />
   </component>
 </project>
