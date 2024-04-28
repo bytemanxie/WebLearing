@@ -3,7 +3,7 @@
     <h2>iphone15</h2>
     <div>商品图片</div>
     <div>商品价格: <span>¥{{price}}</span></div>
-    <p>iphone15, {{price}}}秒杀</p>
+    <p>iphone15, {{price}}秒杀</p>
   </div>
 </template>
 

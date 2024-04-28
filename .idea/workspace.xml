@@ -4,7 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="first commit" />
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/09_Vue的双向绑定/01_v-model的双向绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/09_Vue的双向绑定/02-v-model绑定textarea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/09_Vue的双向绑定/03-绑定checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/09_Vue的双向绑定/04-绑定radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/09_Vue的双向绑定/05-select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/09_Vue的双向绑定/值绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/10-Vue组件化开发/01-根组件的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/10-Vue组件化开发/02-注册全局组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/10-Vue组件化开发/03-组件自身的逻辑.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/10-Vue组件化开发/04-全局组件特点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/10-Vue组件化开发/05-注册局部组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/02_Learn_Project/01_product_demo/src/components/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/02_Learn_Project/01_product_demo/src/components/MyIphone.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/02_Learn_Project/01_product_demo/src/components/ProductItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/Vue的CDN引入.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/Vue的CDN引入.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/lib/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/lib/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/option-data属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/option-data属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/vue动态列表数据.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/vue动态列表数据.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/vue动态数据.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/vue动态数据.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/vue的本地导入.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/vue的本地导入.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/01-Vue基础语法/vue计数器案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/vue计数器案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/02-Vue模板语法/01-插值语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/02-Vue模板语法/01-插值语法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/02-Vue模板语法/02-v-bind的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/02-Vue模板语法/02-v-bind的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/02-Vue模板语法/03-v-bind绑定class属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/02-Vue模板语法/03-v-bind绑定class属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/02-Vue模板语法/04-v-bind绑定style属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/02-Vue模板语法/04-v-bind绑定style属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/02-Vue模板语法/v-bind直接绑定对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/02-Vue模板语法/v-bind直接绑定对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/03-Vue事件绑定/01-事件绑定基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/03-Vue事件绑定/01-事件绑定基本使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/03-Vue事件绑定/02-绑定事件参数传递.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/03-Vue事件绑定/02-绑定事件参数传递.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/04-Vue条件渲染/01-需求demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/04-Vue条件渲染/01-需求demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/04-Vue条件渲染/02-v-if-else.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/04-Vue条件渲染/02-v-if-else.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/04-Vue条件渲染/03-template使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/04-Vue条件渲染/03-template使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/04-Vue条件渲染/04-条件渲染案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/04-Vue条件渲染/04-条件渲染案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/04-Vue条件渲染/05-v-show使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/04-Vue条件渲染/05-v-show使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/05-Vue列表渲染/01-v-for的基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/05-Vue列表渲染/01-v-for的基本使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/05-Vue列表渲染/02-v-for其他类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/05-Vue列表渲染/02-v-for其他类型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/05-Vue列表渲染/03-v-for和template.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/05-Vue列表渲染/03-v-for和template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/05-Vue列表渲染/04-数组更新检测.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/05-Vue列表渲染/04-数组更新检测.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/06_Vue的computed/01-复杂数据methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/06_Vue的computed/01-复杂数据methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/06_Vue的computed/02-复杂数据computed.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/06_Vue的computed/02-复杂数据computed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/07_Vue的watch侦听/01-data的watch.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/07_Vue的watch侦听/01-data的watch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/07_Vue的watch侦听/02-Vue的watch侦听选项.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/07_Vue的watch侦听/02-Vue的watch侦听选项.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/08_Vue阶段案例/01-购物车界面搭建.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/08_Vue阶段案例/01-购物车界面搭建.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/08_Vue阶段案例/02-购物车总价格计算.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/08_Vue阶段案例/02-购物车总价格计算.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/08_Vue阶段案例/03-购物车操作数量处理.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/08_Vue阶段案例/03-购物车操作数量处理.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/08_Vue阶段案例/data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/08_Vue阶段案例/data/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/08_Vue阶段案例/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/08_Vue阶段案例/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/lib/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/lib/vue.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +65,7 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Vue Composition API Component" />
       </list>
     </option>
   </component>
@@ -51,6 +101,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2eIQUwVZ3gV1fC648DiUIhS6ZR6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,7 +114,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/Weblearing/Vue实战&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -70,7 +123,13 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.2.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -82,54 +141,36 @@
       <recent name="E:\Weblearing\Dom中的事件处理" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Weblearing\Vue实战\code\01_Learn_Vue_Basic" />
+      <recent name="E:\Weblearing\Vue实战\code" />
       <recent name="E:\Weblearing" />
       <recent name="E:\Weblearing\js高级\vue学前教育\node学习\前端模块化开发\Common2" />
       <recent name="E:\Weblearing\js高级\vue学前教育\node学习\前端模块化开发\CommonJs" />
-      <recent name="E:\Weblearing\js高级\vue学前教育\node学习" />
-      <recent name="E:\Weblearing\js_learn" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.03-购物车操作数量处理.html">
-    <configuration name="01-购物车界面搭建.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Vue实战/08_Vue阶段案例/01-购物车界面搭建.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="02-注册全局组件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Vue实战/10-Vue组件化开发/02-注册全局组件.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="02-Vue的watch侦听选项.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Vue实战/07_Vue的watch侦听/02-Vue的watch侦听选项.html" useBuiltInWebServerPort="true">
+    <configuration name="03-组件自身的逻辑.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Vue实战/10-Vue组件化开发/03-组件自身的逻辑.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="02-购物车总价格计算.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Vue实战/08_Vue阶段案例/02-购物车总价格计算.html" useBuiltInWebServerPort="true">
+    <configuration name="04-全局组件特点.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Vue实战/10-Vue组件化开发/04-全局组件特点.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="03-购物车操作数量处理.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Vue实战/08_Vue阶段案例/03-购物车操作数量处理.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="元素类型的修改.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/继承-层叠-类型/元素类型的修改.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="侧边栏展示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/DOM实战案例/侧边栏展示.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="解构赋值.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/解构赋值.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="原始类型调用方法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/原始类型调用方法.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="逻辑判断.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/js基本语法/逻辑判断.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="数组与对象的解构.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/数组与对象的解构.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="纯函数的概念理解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/纯函数的概念理解.html" useBuiltInWebServerPort="true">
+    <configuration name="05-注册局部组件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Vue实战/10-Vue组件化开发/05-注册局部组件.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="扩展运算符的使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/扩展运算符的使用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="元素隐藏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/继承-层叠-类型/元素隐藏.html" useBuiltInWebServerPort="true">
+    <configuration name="纯函数的概念理解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/纯函数的概念理解.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="函数对象原型关系.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/函数对象原型关系.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="元素隐藏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/继承-层叠-类型/元素隐藏.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="暂时性死区.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/ES6补充/暂时性死区.html" useBuiltInWebServerPort="true">
@@ -153,25 +194,44 @@
     <configuration name="数组遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/数组遍历.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="基本操作.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/Storage操作/基本操作.html" useBuiltInWebServerPort="true">
+    <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
+    <configuration name="侧边栏展示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/DOM实战案例/侧边栏展示.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="普通对象的原型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/普通对象的原型.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Vue实战/08_Vue阶段案例/index.html" useBuiltInWebServerPort="true">
+    <configuration name="解构赋值.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/解构赋值.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="原始类型调用方法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/原始类型调用方法.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="逻辑判断.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/js基本语法/逻辑判断.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="数组与对象的解构.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/数组与对象的解构.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Vue实战/code/02_Learn_Project/01_product_demo/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript 调试.03-购物车操作数量处理.html" />
-        <item itemvalue="JavaScript 调试.02-购物车总价格计算.html" />
-        <item itemvalue="JavaScript 调试.01-购物车界面搭建.html" />
-        <item itemvalue="JavaScript 调试.index.html" />
-        <item itemvalue="JavaScript 调试.02-Vue的watch侦听选项.html" />
+        <item itemvalue="npm.serve" />
+        <item itemvalue="JavaScript 调试.05-注册局部组件.html" />
+        <item itemvalue="JavaScript 调试.04-全局组件特点.html" />
+        <item itemvalue="JavaScript 调试.03-组件自身的逻辑.html" />
+        <item itemvalue="JavaScript 调试.02-注册全局组件.html" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +281,11 @@
       <workItem from="1713920809433" duration="6665000" />
       <workItem from="1714007767063" duration="24276000" />
       <workItem from="1714094386271" duration="19765000" />
+      <workItem from="1714129916680" duration="1192000" />
+      <workItem from="1714184903408" duration="9775000" />
+      <workItem from="1714218725649" duration="11358000" />
+      <workItem from="1714236612225" duration="1000" />
+      <workItem from="1714266852863" duration="401000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -230,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714129318946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714130064324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714130064324</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
