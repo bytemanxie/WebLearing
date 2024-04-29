@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="table-control封装">
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/05_组件插槽-基本使用(掌握)/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/05_组件插槽-基本使用(掌握)/ShowMessage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/06_组件插槽-具名插槽(掌握)/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/06_组件插槽-具名插槽(掌握)/NavBar.vue" afterDir="false" />
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="插槽学习">
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/09_事件总线的使用(掌握)/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/09_事件总线的使用(掌握)/CateGory.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/09_事件总线的使用(掌握)/HomeBanner.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/09_事件总线的使用(掌握)/HomeView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/09_事件总线的使用(掌握)/utils/event-bus.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/04_组件通信-案例练习(重要)/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/04_组件通信-案例练习(重要)/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/04_组件通信-案例练习(重要)/ControlTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/04_组件通信-案例练习(重要)/ControlTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/06_组件插槽-具名插槽(掌握)/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/06_组件插槽-具名插槽(掌握)/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/06_组件插槽-具名插槽(掌握)/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/06_组件插槽-具名插槽(掌握)/NavBar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Vue Options API Component" />
+        <option value="JavaScript File" />
         <option value="Vue Composition API Component" />
       </list>
     </option>
@@ -249,7 +250,7 @@
       <workItem from="1714236612225" duration="1000" />
       <workItem from="1714266852863" duration="4177000" />
       <workItem from="1714306038668" duration="5444000" />
-      <workItem from="1714353356554" duration="6844000" />
+      <workItem from="1714353356554" duration="10057000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -275,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714315557952</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="插槽学习">
+      <option name="closed" value="true" />
+      <created>1714373000094</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714373000094</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +295,7 @@
     <MESSAGE value="4.27" />
     <MESSAGE value="子组件传递给父组件" />
     <MESSAGE value="table-control封装" />
-    <option name="LAST_COMMIT_MESSAGE" value="table-control封装" />
+    <MESSAGE value="插槽学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="插槽学习" />
   </component>
 </project>

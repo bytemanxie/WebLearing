@@ -33,7 +33,7 @@ import NavBar from './NavBar'
     <template v-slot:[position]>
        <a href="#">注册</a>
     </template>
-    <button @click="changeposleft">左</button>
+    <button @click="changepos">左</button>
     <button @click="position = 'center'">中</button>
     <button @click="position = 'right'">右</button>
   </nav-bar>
