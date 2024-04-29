@@ -1,7 +1,9 @@
 <script>
   export default {
     data(){
-
+      return {
+        cur: -1
+      }
     },
     props: {
       titles: {
@@ -9,13 +11,20 @@
         default: () => []
       }
     },
+    emits: ['change'],
+    methods: {
+      itemClick(index){
+        this.cur = index
+        this.$emit('change', index)
+      }
+    },
   }
 </script>
 
 <template>
   <div class="table-control">
-    <template v-for="item in titles" :key="item">
-      <div class="table-control-item">
+    <template v-for="(item, index) in titles" :key="item">
+      <div class="table-control-item" @click="itemClick(index)" :class="{active: index === this.cur}">
         <span>{{item}}</span>
       </div>
     </template>
@@ -32,4 +41,13 @@
   .table-control-item{
     flex: 1;
   }
+  .table-control-item.active{
+    color: red;
+    font-weight: bold;
+  }
+  .table-control-item.active span {
+    border-bottom: 3px solid red;
+    padding: 8px;
+  }
+
 </style>
