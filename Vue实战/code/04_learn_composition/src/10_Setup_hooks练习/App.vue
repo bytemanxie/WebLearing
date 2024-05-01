@@ -1,16 +1,29 @@
 <template>
   <about></about>
   <about></about>
-
+  <home></home>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <br><br><br><br><br><br>
 </template>
 
 <script>
 import About from './views/AboutView.vue'
+import Home from './views/HomeView.vue'
 
 export default {
 
   components: {
-    About
+    About,
+    Home
   },
   setup() {
 

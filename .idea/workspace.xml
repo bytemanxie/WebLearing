@@ -4,32 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="非父子通信事件练习">
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/10_生命周期函数演练(重要)/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/10_生命周期函数演练(重要)/HomeView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/11_ref获取元素组件(掌握)/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/11_ref获取元素组件(掌握)/BannerView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/12_动态组件的使用/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/12_动态组件的使用/FirstComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/12_动态组件的使用/SecondComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/01_Setup函数的体验/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/01_Setup函数的体验/hooks/useCounter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/02_Setup定义数据/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/02_Setup定义数据/AppView2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/02_Setup定义数据/ShowInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/05_Setup中computed/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/06_Setup中ref引入元素/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/06_Setup中ref引入元素/ShowInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/07_Setup生命周期函数/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/09_Setup-侦听数据变化/App-watch.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/09_Setup-侦听数据变化/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/hooks/useCounter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/views/AboutView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/计数器练习/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/计数器练习/CounterView.vue" afterDir="false" />
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="hooks use_count练习">
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/hooks/useScrollPosition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/hooks/useTitle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/views/HomeView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/11_script_setup语法/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/11_script_setup语法/ShowInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/05_roomsource_demo/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/05_roomsource_demo/src/assets/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/05_roomsource_demo/src/components/AreaHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/05_roomsource_demo/src/data/high_score.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/views/AboutView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +26,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="Vue Options API Component" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="Vue Composition API Component" />
       </list>
     </option>
@@ -143,30 +130,6 @@
     <configuration name="扩展运算符的使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/扩展运算符的使用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="逻辑判断.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/js基本语法/逻辑判断.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="数组与对象的解构.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/数组与对象的解构.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="纯函数的概念理解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/纯函数的概念理解.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="函数对象原型关系.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/函数对象原型关系.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="元素隐藏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/继承-层叠-类型/元素隐藏.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="暂时性死区.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/ES6补充/暂时性死区.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="事件处理的方案选择.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Dom中的事件处理/事件处理的方案选择.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="异步函数写法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/异步asyv-await/异步函数写法.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="箭头函数的简写.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/this的指向/箭头函数的简写.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -192,6 +155,30 @@
       <method v="2" />
     </configuration>
     <configuration name="原始类型调用方法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/原始类型调用方法.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="逻辑判断.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/js基本语法/逻辑判断.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="数组与对象的解构.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/数组与对象的解构.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="纯函数的概念理解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/纯函数的概念理解.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="函数对象原型关系.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/函数对象原型关系.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="元素隐藏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/继承-层叠-类型/元素隐藏.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="暂时性死区.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/ES6补充/暂时性死区.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="事件处理的方案选择.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Dom中的事件处理/事件处理的方案选择.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="异步函数写法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/异步asyv-await/异步函数写法.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -268,7 +255,8 @@
       <workItem from="1714306038668" duration="5444000" />
       <workItem from="1714353356554" duration="15031000" />
       <workItem from="1714439793176" duration="11446000" />
-      <workItem from="1714528802593" duration="8303000" />
+      <workItem from="1714528802593" duration="12144000" />
+      <workItem from="1714553979587" duration="7745000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -310,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714395763326</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hooks use_count练习">
+      <option name="closed" value="true" />
+      <created>1714543791167</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714543791167</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +319,7 @@
     <MESSAGE value="table-control封装" />
     <MESSAGE value="插槽学习" />
     <MESSAGE value="非父子通信事件练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="非父子通信事件练习" />
+    <MESSAGE value="hooks use_count练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="hooks use_count练习" />
   </component>
 </project>
