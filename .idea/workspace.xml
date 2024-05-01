@@ -4,15 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="插槽学习">
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/09_事件总线的使用(掌握)/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/09_事件总线的使用(掌握)/CateGory.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/09_事件总线的使用(掌握)/HomeBanner.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/09_事件总线的使用(掌握)/HomeView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/09_事件总线的使用(掌握)/utils/event-bus.js" afterDir="false" />
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="非父子通信事件练习">
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/10_生命周期函数演练(重要)/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/10_生命周期函数演练(重要)/HomeView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/11_ref获取元素组件(掌握)/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/11_ref获取元素组件(掌握)/BannerView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/12_动态组件的使用/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/12_动态组件的使用/FirstComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/12_动态组件的使用/SecondComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/01_Setup函数的体验/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/01_Setup函数的体验/hooks/useCounter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/02_Setup定义数据/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/02_Setup定义数据/AppView2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/02_Setup定义数据/ShowInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/05_Setup中computed/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/06_Setup中ref引入元素/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/06_Setup中ref引入元素/ShowInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/07_Setup生命周期函数/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/09_Setup-侦听数据变化/App-watch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/09_Setup-侦听数据变化/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/hooks/useCounter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/views/AboutView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/计数器练习/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/计数器练习/CounterView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/06_组件插槽-具名插槽(掌握)/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/06_组件插槽-具名插槽(掌握)/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/06_组件插槽-具名插槽(掌握)/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/06_组件插槽-具名插槽(掌握)/NavBar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/03_learn_component/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +143,9 @@
     <configuration name="扩展运算符的使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/扩展运算符的使用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="逻辑判断.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/js基本语法/逻辑判断.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="数组与对象的解构.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/数组与对象的解构.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -173,9 +192,6 @@
       <method v="2" />
     </configuration>
     <configuration name="原始类型调用方法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/原始类型调用方法.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="逻辑判断.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/js基本语法/逻辑判断.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -250,7 +266,9 @@
       <workItem from="1714236612225" duration="1000" />
       <workItem from="1714266852863" duration="4177000" />
       <workItem from="1714306038668" duration="5444000" />
-      <workItem from="1714353356554" duration="10057000" />
+      <workItem from="1714353356554" duration="15031000" />
+      <workItem from="1714439793176" duration="11446000" />
+      <workItem from="1714528802593" duration="8303000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -284,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714373000094</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="非父子通信事件练习">
+      <option name="closed" value="true" />
+      <created>1714395763326</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714395763326</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +322,7 @@
     <MESSAGE value="子组件传递给父组件" />
     <MESSAGE value="table-control封装" />
     <MESSAGE value="插槽学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="插槽学习" />
+    <MESSAGE value="非父子通信事件练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="非父子通信事件练习" />
   </component>
 </project>
