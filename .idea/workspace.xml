@@ -4,19 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="hooks use_count练习">
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/hooks/useScrollPosition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/hooks/useTitle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/views/HomeView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/11_script_setup语法/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/11_script_setup语法/ShowInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/05_roomsource_demo/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/05_roomsource_demo/src/assets/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/05_roomsource_demo/src/components/AreaHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/05_roomsource_demo/src/data/high_score.json" afterDir="false" />
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="项目重置css">
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/06_learn_router/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/06_learn_router_gpt/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/06_learn_router_gpt/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/06_learn_router_gpt/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/06_learn_router_gpt/src/views/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/06_learn_router_gpt/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/06_learn_router_gpt/src/views/NotFound.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/06_learn_router_gpt/src/views/Profile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/06_learn_router_gpt/src/views/ProtectedComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/06_learn_router_gpt/src/views/Settings.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/06_learn_router_gpt/src/views/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/06_learn_router_gpt/src/views/info.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/07_learn_vuex/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/07_learn_vuex/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/07_learn_vuex/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/08_learn_pinia/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/08_learn_pinia/src/components/CounterComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/08_learn_pinia/src/stores/counterStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/assets/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/assets/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/assets/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端面试/javascript/原型/原型修改重写.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端面试/javascript/原型/原型修改重写.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端面试/javascript/异步/asyn和await.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/04_learn_composition/src/10_Setup_hooks练习/views/AboutView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/05_roomsource_demo/src/components/RoomItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/05_roomsource_demo/src/components/RoomItem.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +41,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Vue Options API Component" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
+        <option value="HTML File" />
         <option value="Vue Composition API Component" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -107,11 +122,11 @@
       <recent name="E:\Weblearing\Dom中的事件处理" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Weblearing\Vue实战\code\06_learn_router_gpt\src" />
       <recent name="E:\Weblearing\Vue实战\code\01_Learn_Vue_Basic" />
       <recent name="E:\Weblearing\Vue实战\code" />
       <recent name="E:\Weblearing" />
       <recent name="E:\Weblearing\js高级\vue学前教育\node学习\前端模块化开发\Common2" />
-      <recent name="E:\Weblearing\js高级\vue学前教育\node学习\前端模块化开发\CommonJs" />
     </key>
   </component>
   <component name="RunManager" selected="npm.serve">
@@ -128,18 +143,6 @@
       <method v="2" />
     </configuration>
     <configuration name="扩展运算符的使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/扩展运算符的使用.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="箭头函数的简写.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/this的指向/箭头函数的简写.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="函数的剩余参数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/函数的剩余参数.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="使用精灵图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/补充知识/使用精灵图.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="数组遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/数组遍历.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
@@ -179,6 +182,18 @@
       <method v="2" />
     </configuration>
     <configuration name="异步函数写法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/异步asyv-await/异步函数写法.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="箭头函数的简写.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/this的指向/箭头函数的简写.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="函数的剩余参数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/函数的剩余参数.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="使用精灵图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/补充知识/使用精灵图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="数组遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/数组遍历.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -256,7 +271,16 @@
       <workItem from="1714353356554" duration="15031000" />
       <workItem from="1714439793176" duration="11446000" />
       <workItem from="1714528802593" duration="12144000" />
-      <workItem from="1714553979587" duration="7745000" />
+      <workItem from="1714553979587" duration="9467000" />
+      <workItem from="1714618353700" duration="11564000" />
+      <workItem from="1714703840032" duration="1007000" />
+      <workItem from="1714904896976" duration="599000" />
+      <workItem from="1714907140335" duration="6176000" />
+      <workItem from="1714958189932" duration="1320000" />
+      <workItem from="1714996825562" duration="4225000" />
+      <workItem from="1715043408015" duration="6486000" />
+      <workItem from="1715155551248" duration="6321000" />
+      <workItem from="1715178748381" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -306,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714543791167</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="阶段房源练习">
+      <option name="closed" value="true" />
+      <created>1714581506284</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714581506284</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +352,8 @@
     <MESSAGE value="插槽学习" />
     <MESSAGE value="非父子通信事件练习" />
     <MESSAGE value="hooks use_count练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="hooks use_count练习" />
+    <MESSAGE value="阶段房源练习" />
+    <MESSAGE value="项目重置css" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目重置css" />
   </component>
 </project>

@@ -23,15 +23,15 @@
 </template>
 
 <script setup>
-import { computed } from 'vue';
+  import { computed } from 'vue';
 
-// 1.定义props
-const props = defineProps({
-  itemData: {
-    type: Object,
-    default: () => ({})
-  }
-})
+  // 1.定义props
+  const props = defineProps({
+    itemData: {
+      type: Object,
+      default: () => ({})
+    }
+  })
 
 // 2.定义计算属性
 // const titleText = computed(() => {
@@ -40,21 +40,21 @@ const props = defineProps({
 // const titleColor = computed(() => {
 //   return props.itemData.verify_info.text_color
 // })
-const titleInfo = computed(() => {
-  return {
-    text: props.itemData.verify_info.messages.join(" "),
-    color: props.itemData.verify_info.text_color
-  }
-})
-const bottomInfo = computed(() => {
-  return {
-    content: props.itemData.bottom_info.content,
-    style: {
-      color: props.itemData.bottom_info.content_color,
-      fontSize: props.itemData.bottom_info.font_size + "px"
+  const titleInfo = computed(() => {
+    return {
+      text: props.itemData.verify_info.messages.join(" "),
+      color: props.itemData.verify_info.text_color
     }
-  }
-})
+  })
+  const bottomInfo = computed(() => {
+    return {
+      content: props.itemData.bottom_info.content,
+      style: {
+        color: props.itemData.bottom_info.content_color,
+        fontSize: props.itemData.bottom_info.font_size + "px"
+      }
+    }
+  })
 
 </script>
 

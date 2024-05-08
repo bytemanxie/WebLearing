@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function delay(ms) {
+            // 返回一个新的 Promise
+            // return new Promise(function (resolve, reject) {
+            //     // 1秒后，返回结果
+            //     setTimeout(function () {
+            //         resolve('done');
+            //     }, ms);
+            // });
+            return new Promise(resolve => {
+                setTimeout(() => {
+                    resolve(10086);
+                }, ms);
+            })
+        }
+
+        async function performTask() {
+            console.log('Task start');
+            // 等待1秒钟
+            let val = await delay(1000).then(res => {
+                console.log("res:", res)
+                return res
+            });
+            console.log('Task completed after 1 second');
+            console.log(val);
+        }
+
+        // 调用异步函数
+        performTask();
+    </script>
+</body>
+</html>
