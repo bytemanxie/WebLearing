@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="项目重置css">
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/stores/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/stores/modules/city.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/stores/modules/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Favor/favor.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Message/message.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Order/order.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Profile/profile.vue" afterDir="false" />
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="路由状态管理配置">
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/tab-bar/tab-bar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/App.vue" afterDir="false" />
     </list>
@@ -28,8 +20,8 @@
         <option value="Vue Options API Component" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="Vue Composition API Component" />
         <option value="JavaScript File" />
+        <option value="Vue Composition API Component" />
       </list>
     </option>
   </component>
@@ -264,7 +256,7 @@
       <workItem from="1714996825562" duration="4225000" />
       <workItem from="1715043408015" duration="6486000" />
       <workItem from="1715155551248" duration="6321000" />
-      <workItem from="1715178748381" duration="2424000" />
+      <workItem from="1715178748381" duration="5368000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -330,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715179120036</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="路由状态管理配置">
+      <option name="closed" value="true" />
+      <created>1715181486274</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715181486274</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +346,7 @@
     <MESSAGE value="hooks use_count练习" />
     <MESSAGE value="阶段房源练习" />
     <MESSAGE value="项目重置css" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目重置css" />
+    <MESSAGE value="路由状态管理配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="路由状态管理配置" />
   </component>
 </project>
