@@ -1,5 +1,5 @@
 <script setup>
-  import tabbar from './components/tab-bar/tab-bar.vue'
+  import tabbar from './components/tab-bar/tab-bar_01.vue'
 </script>
 
 <template>

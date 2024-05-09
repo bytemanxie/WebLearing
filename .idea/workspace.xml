@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="路由状态管理配置">
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/tab-bar/tab-bar.vue" afterDir="false" />
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="tabbar基本搭建">
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/assets/data/tabbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/tab-bar/tab-bar_01.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/utils/load_assets.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/App.vue" afterDir="false" />
     </list>
@@ -20,8 +22,8 @@
         <option value="Vue Options API Component" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Vue Composition API Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -121,30 +123,6 @@
     <configuration name="扩展运算符的使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/扩展运算符的使用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="侧边栏展示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/DOM实战案例/侧边栏展示.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="普通对象的原型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/普通对象的原型.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="解构赋值.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/解构赋值.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="原始类型调用方法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/原始类型调用方法.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="逻辑判断.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/js基本语法/逻辑判断.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="数组与对象的解构.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/数组与对象的解构.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="纯函数的概念理解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/纯函数的概念理解.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="函数对象原型关系.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/函数对象原型关系.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -170,6 +148,30 @@
       <method v="2" />
     </configuration>
     <configuration name="数组遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/数组遍历.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="侧边栏展示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/DOM实战案例/侧边栏展示.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="普通对象的原型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/普通对象的原型.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="解构赋值.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/解构赋值.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="原始类型调用方法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/原始类型调用方法.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="逻辑判断.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/js基本语法/逻辑判断.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="数组与对象的解构.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/数组与对象的解构.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="纯函数的概念理解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/纯函数的概念理解.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -256,7 +258,8 @@
       <workItem from="1714996825562" duration="4225000" />
       <workItem from="1715043408015" duration="6486000" />
       <workItem from="1715155551248" duration="6321000" />
-      <workItem from="1715178748381" duration="5368000" />
+      <workItem from="1715178748381" duration="5575000" />
+      <workItem from="1715217430850" duration="2661000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -330,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715181486274</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="tabbar基本搭建">
+      <option name="closed" value="true" />
+      <created>1715187970999</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715187970999</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +358,7 @@
     <MESSAGE value="阶段房源练习" />
     <MESSAGE value="项目重置css" />
     <MESSAGE value="路由状态管理配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="路由状态管理配置" />
+    <MESSAGE value="tabbar基本搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="tabbar基本搭建" />
   </component>
 </project>
