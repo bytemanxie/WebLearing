@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="tabbar的动态数据">
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="tabbar功能完善">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/tab-bar/tab-bar_01.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/tab-bar/tab-bar_01.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +257,7 @@
       <workItem from="1715155551248" duration="6321000" />
       <workItem from="1715178748381" duration="5575000" />
       <workItem from="1715217430850" duration="3473000" />
-      <workItem from="1715255270520" duration="2666000" />
+      <workItem from="1715255270520" duration="4619000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -347,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715231914896</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="tabbar功能完善">
+      <option name="closed" value="true" />
+      <created>1715269517083</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715269517083</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +374,7 @@
     <MESSAGE value="路由状态管理配置" />
     <MESSAGE value="tabbar基本搭建" />
     <MESSAGE value="tabbar的动态数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="tabbar的动态数据" />
+    <MESSAGE value="tabbar功能完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="tabbar功能完善" />
   </component>
 </project>
