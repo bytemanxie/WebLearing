@@ -2,7 +2,9 @@
   import {useRouter} from "vue-router";
   import {ref} from "vue";
 
-  import {getCityAll} from '@/services'
+  // import {getCityAll} from '@/services'
+  import useCityStore from "@/stores/modules/city.js";
+  import {storeToRefs} from "pinia";
 
   const router = useRouter()
   const cancelClick = () => {
@@ -11,9 +13,15 @@
   const searchVal = ref("")
   const tabActive = ref(0)
 
-  getCityAll().then(res => {
-    console.log(res)
-  })
+  // const allcity = ref({})
+  // getCityAll().then(res => {
+  //   console.log(res)
+  //   allcity.value = res.data
+  // })
+
+  const cityStore = useCityStore()
+  cityStore.fetchAllCitiesData()
+  const { allCities } = storeToRefs(cityStore)
 </script>
 
 <template>
@@ -26,8 +34,9 @@
         @click="cancelClick"
     />
     <van-tabs v-model:active="tabActive" color="#ff9854">
-      <van-tab title="国内·港澳台">内容 1</van-tab>
-      <van-tab title="海外">内容 2</van-tab>
+      <template v-for="(value, key, index) in allCities" :key="key">
+        <van-tab :title="value.title"></van-tab>
+      </template>
     </van-tabs>
 
   </div>
