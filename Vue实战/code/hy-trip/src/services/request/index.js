@@ -10,14 +10,13 @@ class HYRequest {
         })
     }
 
-    request(config) {
-        return new Promise((resolve, reject) => {
-            this.instance.request(config).then(res => {
-                resolve(res.data)
-            }).catch(err => {
-                reject(err)
-            })
-        })
+    async request(config) {
+        try {
+            const response = await this.instance.request(config);
+            return response.data;
+        } catch (err) {
+            throw err;
+        }
     }
 
     get(config) {
