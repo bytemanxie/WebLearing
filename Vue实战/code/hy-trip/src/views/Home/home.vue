@@ -1,6 +1,6 @@
 <script setup>
   import NavBar from './cpns/home-nav-bar.vue'
-  import SerachBox from './cpns/home-search-box.vue'
+  import SearchBox from './cpns/home-search-box.vue'
 
 
 </script>
@@ -11,7 +11,7 @@
     <div class="banner">
       <img src="@/assets/image/home/banner.webp">
     </div>
-    <serach-box/>
+    <search-box/>
   </div>
 </template>
 
