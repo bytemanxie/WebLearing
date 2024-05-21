@@ -5,6 +5,7 @@
     /* --van-tabbar-item-icon-size: 30px !important; */
     --van-search-left-icon-color: var(--primary-color) !important;
     --line-color: #faf8f9;
+    --theme-linear-gradient: linear-gradient(90deg, #fa8c1d, #fcaf3f);
 }
 
 body {
@@ -17,4 +18,8 @@ body {
     height: 100vh;
     background-color: #fff;
     overflow-y: auto;
+}
+
+html{
+    line-height: 1.2;
 }

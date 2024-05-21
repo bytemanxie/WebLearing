@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="日历，人数，关键词">
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/services/modules/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/stores/modules/home.js" afterDir="false" />
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="热门请求数据分层">
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/house-item-v3/house-item-v3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/house-item-v9/house-item-v9.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/search-bar/search-bar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/hooks/useScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/stores/modules/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/cpns/home-categories.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/cpns/home-content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/search/search.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/services/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/services/request/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/services/request/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/assets/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/assets/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/tab-bar/tab-bar_03.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/tab-bar/tab-bar_03.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/services/modules/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/services/modules/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/stores/modules/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/stores/modules/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/cpns/home-search-box.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/cpns/home-search-box.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/home.vue" afterDir="false" />
     </list>
@@ -125,18 +135,6 @@
     <configuration name="扩展运算符的使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/扩展运算符的使用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="纯函数的概念理解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/纯函数的概念理解.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="函数对象原型关系.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/函数对象原型关系.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="元素隐藏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/继承-层叠-类型/元素隐藏.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="暂时性死区.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/ES6补充/暂时性死区.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="事件处理的方案选择.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Dom中的事件处理/事件处理的方案选择.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -174,6 +172,18 @@
       <method v="2" />
     </configuration>
     <configuration name="数组与对象的解构.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/数组与对象的解构.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="纯函数的概念理解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/纯函数的概念理解.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="函数对象原型关系.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/函数对象原型关系.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="元素隐藏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/继承-层叠-类型/元素隐藏.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="暂时性死区.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/ES6补充/暂时性死区.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -280,7 +290,15 @@
       <workItem from="1715737179663" duration="941000" />
       <workItem from="1715788453165" duration="2017000" />
       <workItem from="1715821941787" duration="6699000" />
-      <workItem from="1715862823335" duration="9450000" />
+      <workItem from="1715862823335" duration="9871000" />
+      <workItem from="1715937756464" duration="623000" />
+      <workItem from="1715958288596" duration="1192000" />
+      <workItem from="1716084881673" duration="7897000" />
+      <workItem from="1716166922663" duration="4140000" />
+      <workItem from="1716207405776" duration="1716000" />
+      <workItem from="1716253857733" duration="648000" />
+      <workItem from="1716277723019" duration="6798000" />
+      <workItem from="1716305671283" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -418,7 +436,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715871743281</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="热门请求数据分层">
+      <option name="closed" value="true" />
+      <created>1715877186181</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715877186181</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,6 +480,7 @@
     <MESSAGE value="网络模块的封装" />
     <MESSAGE value="城市数据store管理" />
     <MESSAGE value="日历，人数，关键词" />
-    <option name="LAST_COMMIT_MESSAGE" value="日历，人数，关键词" />
+    <MESSAGE value="热门请求数据分层" />
+    <option name="LAST_COMMIT_MESSAGE" value="热门请求数据分层" />
   </component>
 </project>

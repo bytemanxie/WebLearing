@@ -1,20 +1,32 @@
 <script setup>
-import tabbar from "@/assets/data/tabbar.js";
+import tabbarData from "@/assets/data/tabbar.js";
 import {getAssetURL} from "@/utils/load_assets.js";
 import {ref} from "vue";
 const curindex = ref(0);
 import {useRouter} from "vue-router";
+import {useRoute} from "vue-router";
+import {watch} from "vue";
+
 const router = useRouter();
 const itemClick = (index, item) => {
   curindex.value = index;
   router.push(item.path);
 }
+
+// 监听路由改变时, 找到对应的索引, 设置currentIndex
+const route = useRoute()
+const currentIndex = ref(0)
+watch(route, (newRoute) => {
+  const index = tabbarData.findIndex(item => item.path === newRoute.path)
+  if (index === -1) return
+  currentIndex.value = index
+})
 </script>
 
 <template>
   <div class="tab-bar">
-    <van-tabbar v-model="curindex" active-color='#ff9854'>
-      <template v-for="(item, index) in tabbar" :key="index">
+    <van-tabbar v-model="curindex" active-color='#ff9854' route>
+      <template v-for="(item, index) in tabbarData" :key="index">
         <van-tabbar-item :to="item.path">
 <!--          <span>{{ item.text }}</span>-->
           <template #default>
@@ -35,11 +47,19 @@ const itemClick = (index, item) => {
 
 <style lang="less" scoped>
 .tab-bar {
-  :deep(.van-tabbar-item__icon){
+  // 局部定义一个变量: 只针对.tab-bar子元素才生效
+  // --van-tabbar-item-icon-size: 30px !important;
+
+  // 找到类, 对类中的CSS属性重写
+  // :deep(.class)找到子组件的类, 让子组件的类也可以生效
+  :deep(.van-tabbar-item__icon) {
     font-size: 50px;
   }
-  image{
-    height: 28px;
+
+  img {
+    height: 26px;
   }
+  position: fixed;
+  z-index: 1000;
 }
 </style>
