@@ -3,7 +3,7 @@ import HouseItemV9 from "@/components/house-item-v9/house-item-v9.vue"
 import HouseItemV3 from "@/components/house-item-v3/house-item-v3.vue"
 import useHomeStore from '@/stores/modules/home';
 import { storeToRefs } from 'pinia';
-import {useRouter} from "vue-router";
+import { useRouter } from "vue-router";
 
 const homeStore = useHomeStore()
 const { houselist } = storeToRefs(homeStore)
