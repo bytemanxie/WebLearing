@@ -59,7 +59,5 @@ watch(route, (newRoute) => {
   img {
     height: 26px;
   }
-  position: fixed;
-  z-index: 1000;
 }
 </style>

@@ -67,7 +67,7 @@ const getCategoryIndex = (item) => {
             </span>
           </template>
         </div>
-      </template>
+      </template>/
     </van-swipe>
 
 

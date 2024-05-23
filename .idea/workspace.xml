@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="详情页跳转">
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/services/modules/detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_01-swipe.vue" afterDir="false" />
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="轮播图初步">
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/detail-section/detail-section.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_02-infos.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_03-facility.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/assets/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/assets/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/services/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/cpns/home-content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/cpns/home-content.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_01-swipe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_01-swipe.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/detail.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,30 +125,6 @@
     <configuration name="扩展运算符的使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/扩展运算符的使用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="暂时性死区.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/ES6补充/暂时性死区.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="事件处理的方案选择.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Dom中的事件处理/事件处理的方案选择.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="异步函数写法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/异步asyv-await/异步函数写法.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="箭头函数的简写.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/this的指向/箭头函数的简写.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="函数的剩余参数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/函数的剩余参数.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="使用精灵图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/补充知识/使用精灵图.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="数组遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/数组遍历.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="侧边栏展示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/DOM实战案例/侧边栏展示.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -174,6 +150,30 @@
       <method v="2" />
     </configuration>
     <configuration name="元素隐藏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/继承-层叠-类型/元素隐藏.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="暂时性死区.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/ES6补充/暂时性死区.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="事件处理的方案选择.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Dom中的事件处理/事件处理的方案选择.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="异步函数写法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/异步asyv-await/异步函数写法.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="箭头函数的简写.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/this的指向/箭头函数的简写.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="函数的剩余参数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/函数的剩余参数.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="使用精灵图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/补充知识/使用精灵图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="数组遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/数组遍历.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -290,7 +290,8 @@
       <workItem from="1716277723019" duration="6798000" />
       <workItem from="1716305671283" duration="3489000" />
       <workItem from="1716340701239" duration="3120000" />
-      <workItem from="1716381209221" duration="6877000" />
+      <workItem from="1716381209221" duration="7045000" />
+      <workItem from="1716428032095" duration="3619000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -460,7 +461,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716355695638</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="轮播图初步">
+      <option name="closed" value="true" />
+      <created>1716398523046</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1716398523046</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,6 +509,7 @@
     <MESSAGE value="滑动加载更多" />
     <MESSAGE value="拦截器loading" />
     <MESSAGE value="详情页跳转" />
-    <option name="LAST_COMMIT_MESSAGE" value="详情页跳转" />
+    <MESSAGE value="轮播图初步" />
+    <option name="LAST_COMMIT_MESSAGE" value="轮播图初步" />
   </component>
 </project>

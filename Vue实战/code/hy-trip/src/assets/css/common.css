@@ -13,14 +13,22 @@ body {
     font-size: 14px;
 }
 
-.top-page{
+.top-page {
     position: relative;
     z-index: 9;
     height: 100vh;
     background-color: #fff;
+
     overflow-y: auto;
 }
 
 html{
     line-height: 1.2;
+}
+
+.icon_check {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(../image/detail/icon_check.png) 0 0 / 100% 100%;
 }
