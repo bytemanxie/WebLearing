@@ -7,7 +7,11 @@
 
 <template>
   <div class="app">
-    <router-view/>
+    <router-view v-slot="props">
+      <keep-alive include="home">
+        <component :is="props.Component"></component>
+      </keep-alive>
+    </router-view>
     <tab-bar v-if="!route.meta.hideTabBar"/>
 <!--     <tab-bar/>-->
     <loading/>

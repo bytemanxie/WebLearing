@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="轮播图初步">
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/detail-section/detail-section.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_02-infos.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_03-facility.vue" afterDir="false" />
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="详情区域封装，房屋信息展示">
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/tab-control/tab-control.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_04-landlord.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_05-comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_06-notice.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_07-map.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_08-intro.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/assets/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/assets/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_01-swipe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/cpns/detail_01-swipe.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/hooks/useScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/hooks/useScroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/detail/detail.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +129,12 @@
     <configuration name="扩展运算符的使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/扩展运算符的使用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="数组遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/数组遍历.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="侧边栏展示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/DOM实战案例/侧边栏展示.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -168,12 +178,6 @@
       <method v="2" />
     </configuration>
     <configuration name="使用精灵图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/补充知识/使用精灵图.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="数组遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/数组遍历.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -291,7 +295,11 @@
       <workItem from="1716305671283" duration="3489000" />
       <workItem from="1716340701239" duration="3120000" />
       <workItem from="1716381209221" duration="7045000" />
-      <workItem from="1716428032095" duration="3619000" />
+      <workItem from="1716428032095" duration="5425000" />
+      <workItem from="1716467147324" duration="2780000" />
+      <workItem from="1716564873992" duration="902000" />
+      <workItem from="1716601940544" duration="7702000" />
+      <workItem from="1716711699064" duration="2778000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -469,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716398523046</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="详情区域封装，房屋信息展示">
+      <option name="closed" value="true" />
+      <created>1716443212678</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1716443212678</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,6 +526,7 @@
     <MESSAGE value="拦截器loading" />
     <MESSAGE value="详情页跳转" />
     <MESSAGE value="轮播图初步" />
-    <option name="LAST_COMMIT_MESSAGE" value="轮播图初步" />
+    <MESSAGE value="详情区域封装，房屋信息展示" />
+    <option name="LAST_COMMIT_MESSAGE" value="详情区域封装，房屋信息展示" />
   </component>
 </project>

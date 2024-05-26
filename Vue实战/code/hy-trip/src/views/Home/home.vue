@@ -1,3 +1,6 @@
+<script>
+export default { name: "home" }
+</script>
 <script setup>
   import NavBar from './cpns/home-nav-bar.vue'
   import SearchBox from './cpns/home-search-box.vue'
