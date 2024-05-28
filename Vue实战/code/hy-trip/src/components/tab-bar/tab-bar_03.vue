@@ -1,17 +1,8 @@
 <script setup>
-import tabbarData from "@/assets/data/tabbar.js";
-import {getAssetURL} from "@/utils/load_assets.js";
-import {ref} from "vue";
-const curindex = ref(0);
-import {useRouter} from "vue-router";
-import {useRoute} from "vue-router";
-import {watch} from "vue";
-
-const router = useRouter();
-const itemClick = (index, item) => {
-  curindex.value = index;
-  router.push(item.path);
-}
+import tabbarData from "@/assets/data/tabbar.js"
+import { getAssetURL } from "@/utils/load_assets.js"
+import { ref, watch } from "vue";
+import { useRoute } from "vue-router";
 
 // 监听路由改变时, 找到对应的索引, 设置currentIndex
 const route = useRoute()
@@ -25,24 +16,24 @@ watch(route, (newRoute) => {
 
 <template>
   <div class="tab-bar">
-    <van-tabbar v-model="curindex" active-color='#ff9854' route>
-      <template v-for="(item, index) in tabbarData" :key="index">
+    <van-tabbar
+        v-model="currentIndex"
+        active-color="#ff9854"
+        route
+    >
+      <template v-for="(item, index) in tabbarData">
         <van-tabbar-item :to="item.path">
-<!--          <span>{{ item.text }}</span>-->
           <template #default>
             <span>{{ item.text }}</span>
           </template>
           <template #icon>
-            <img v-if="curindex === index" :src="getAssetURL(item.imageActive)" alt="">
-            <img v-else :src="getAssetURL(item.image)" alt="">
+            <img v-if="currentIndex !== index" :src="getAssetURL(item.image)" alt="">
+            <img v-else :src="getAssetURL(item.imageActive)" alt="">
           </template>
         </van-tabbar-item>
       </template>
     </van-tabbar>
-
   </div>
-
-
 </template>
 
 <style lang="less" scoped>

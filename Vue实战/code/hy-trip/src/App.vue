@@ -12,7 +12,7 @@
         <component :is="props.Component"></component>
       </keep-alive>
     </router-view>
-    <tab-bar v-if="!route.meta.hideTabBar"/>
+    <tab-bar v-show="!route.meta.hideTabBar"/>
 <!--     <tab-bar/>-->
     <loading/>
   </div>
