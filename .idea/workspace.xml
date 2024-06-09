@@ -4,10 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="监听滑动距离tab-bar更新，首页keep-alive">
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="跳转位置，build部署">
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/01_React初体验/01_第一个React程序.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/01_React初体验/03_Hello_React重构.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/01_React初体验/04_案例二-电影列表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/01_React初体验/05_案例三-计数器实现.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/02_JSX语法/03_JSX的注释编写.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/02_JSX语法/04_JSX中插入内容.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/02_JSX语法/05_JSX中绑定属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/03_JSX基本语法(二)/01_JSX的事件绑定-this.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/03_JSX基本语法(二)/02_JSX的事件绑定-参数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/03_JSX基本语法(二)/03_JSX的事件绑定-案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/03_JSX基本语法(二)/06_JSX条件渲染的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/03_JSX基本语法(二)/07_JSX条件渲染-案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/03_JSX基本语法(二)/08_JSX列表渲染的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/04_JSX本质和原理/01_JSX转换过程.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React全家桶/code/01_Learn_React_Basic/04_JSX本质和原理/02_JSX转换过程-原生React.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/css/2.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/css/2.10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/css/2.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/css/2.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/css/2.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/css/2.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/css/2.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/css/2.7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/css/2.8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/css/2.9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/kof/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/kof/static/js/ac_game_object/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/kof/static/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/kof/static/js/controller/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/kof/static/js/game_map/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/kof/static/js/jQuery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/kof/static/js/player/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/kof/static/js/player/kyo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/kof/template/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/static/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/tab-bar/tab-bar_03.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/components/tab-bar/tab-bar_03.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/hy-trip/src/views/Home/home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +53,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Options API Component" />
-        <option value="CSS File" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Vue Composition API Component" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -79,7 +113,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.2.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -99,30 +133,21 @@
       <recent name="E:\Weblearing\Dom中的事件处理" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Weblearing\acwing\kof\static\js" />
       <recent name="E:\Weblearing\Vue实战\code\hy-trip\src\services\modules" />
       <recent name="E:\Weblearing\Vue实战\code\06_learn_router_gpt\src" />
       <recent name="E:\Weblearing\Vue实战\code\01_Learn_Vue_Basic" />
       <recent name="E:\Weblearing\Vue实战\code" />
-      <recent name="E:\Weblearing" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.preview">
-    <configuration name="04-全局组件特点.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Vue实战/10-Vue组件化开发/04-全局组件特点.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript 调试.2.4.html">
+    <configuration name="2.2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/acwing/css/2.2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="05-注册局部组件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Vue实战/10-Vue组件化开发/05-注册局部组件.html" useBuiltInWebServerPort="true">
+    <configuration name="2.4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/acwing/css/2.4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="使用精灵图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/补充知识/使用精灵图.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="纯函数的概念理解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/纯函数的概念理解.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="函数对象原型关系.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/函数对象原型关系.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="元素隐藏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/继承-层叠-类型/元素隐藏.html" useBuiltInWebServerPort="true">
+    <configuration name="数组遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/数组遍历.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="暂时性死区.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/ES6补充/暂时性死区.html" useBuiltInWebServerPort="true">
@@ -138,9 +163,6 @@
       <method v="2" />
     </configuration>
     <configuration name="函数的剩余参数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/函数的剩余参数.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="数组遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/数组遍历.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
@@ -162,6 +184,15 @@
       <method v="2" />
     </configuration>
     <configuration name="数组与对象的解构.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/数组与对象的解构.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="纯函数的概念理解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/纯函数的概念理解.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="函数对象原型关系.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/函数对象原型关系.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="元素隐藏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/继承-层叠-类型/元素隐藏.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -196,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.2.4.html" />
+        <item itemvalue="JavaScript 调试.2.2.html" />
         <item itemvalue="npm.preview" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.serve" />
-        <item itemvalue="JavaScript 调试.05-注册局部组件.html" />
-        <item itemvalue="JavaScript 调试.04-全局组件特点.html" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +337,25 @@
       <workItem from="1716711699064" duration="3745000" />
       <workItem from="1716773916683" duration="593000" />
       <workItem from="1716812166983" duration="6013000" />
-      <workItem from="1716858336133" duration="596000" />
+      <workItem from="1716858336133" duration="13123000" />
+      <workItem from="1716906253928" duration="3397000" />
+      <workItem from="1716914361829" duration="20000" />
+      <workItem from="1716954681633" duration="596000" />
+      <workItem from="1716994327107" duration="2458000" />
+      <workItem from="1717031273531" duration="3486000" />
+      <workItem from="1717114732524" duration="1214000" />
+      <workItem from="1717254306743" duration="4448000" />
+      <workItem from="1717296278097" duration="3823000" />
+      <workItem from="1717384725919" duration="165000" />
+      <workItem from="1717385016860" duration="44000" />
+      <workItem from="1717385070446" duration="50000" />
+      <workItem from="1717580999321" duration="1755000" />
+      <workItem from="1717585702026" duration="3726000" />
+      <workItem from="1717637061704" duration="7378000" />
+      <workItem from="1717744909968" duration="4018000" />
+      <workItem from="1717770633862" duration="1192000" />
+      <workItem from="1717813441091" duration="15150000" />
+      <workItem from="1717904022225" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -500,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716741161792</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="跳转位置，build部署">
+      <option name="closed" value="true" />
+      <created>1716863158618</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1716863158618</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +575,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
     <MESSAGE value="4.27" />
     <MESSAGE value="子组件传递给父组件" />
     <MESSAGE value="table-control封装" />
@@ -543,6 +599,7 @@
     <MESSAGE value="轮播图初步" />
     <MESSAGE value="详情区域封装，房屋信息展示" />
     <MESSAGE value="监听滑动距离tab-bar更新，首页keep-alive" />
-    <option name="LAST_COMMIT_MESSAGE" value="监听滑动距离tab-bar更新，首页keep-alive" />
+    <MESSAGE value="跳转位置，build部署" />
+    <option name="LAST_COMMIT_MESSAGE" value="跳转位置，build部署" />
   </component>
 </project>

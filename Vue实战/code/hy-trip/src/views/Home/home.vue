@@ -52,17 +52,18 @@ import { computed } from '@vue/reactivity';
 
 <template>
   <div class="home" ref="homeRef">
-    <nav-bar/>
+    <home-nav-bar/>
     <div class="banner">
-      <img src="@/assets/image/home/banner.webp">
+      <img src="@/assets/image/home/banner.webp" alt="">
     </div>
-    <search-box/>
+    <home-search-box />
     <home-categories />
     <div class="search-bar" v-if="isShowSearchBar">
       <search-bar :start-date="'09.19'" :end-date="'09.20'"/>
     </div>
     <home-content />
-<!--    <button @click="moreBtnClick">加载更多</button>-->
+
+    <!-- <button @click="moreBtnClick">加载更多</button> -->
   </div>
 </template>
 
