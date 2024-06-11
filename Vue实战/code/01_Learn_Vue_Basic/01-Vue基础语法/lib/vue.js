@@ -7229,7 +7229,7 @@ Server rendered element contains fewer child nodes than client vdom.`
                     // oldVNode may be an errored async setup() component inside Suspense
                     // which will not have a mounted element
                     oldVNode.el && // - In the case of a Fragment, we need to provide the actual parent
-                    // of the Fragment itself so it can move its children.
+                    // of the Fragment itself so it can updata_move its children.
                     (oldVNode.type === Fragment || // - In the case of different nodes, there is going to be a replacement
                         // which also requires the correct parent container
                         !isSameVNodeType(oldVNode, newVNode) || // - In the case of a component, it could contain anything.
