@@ -56,6 +56,16 @@ export class Player extends AcGameObject {
 
     }
 
+    update_direction(){
+        let players = this.root.players
+        let me = this, you = players[1 - this.id]
+        if(me.x < you.x){
+            me.direction = 1
+        }else{
+            me.direction = -1
+        }
+    }
+
     updata_controller(){
         let w, a, d, space
         if(this.id === 0){
@@ -101,7 +111,9 @@ export class Player extends AcGameObject {
     }
 
     update(){
+        this.update_direction();
         this.updata_controller();
+
         this.updata_move();
 
         this.render();
@@ -117,9 +129,30 @@ export class Player extends AcGameObject {
 
         let obj = this.animations.get(status)
         if(obj.loaded){
-            let k = parseInt(this.frame_current_cnt / 5 % obj.frame_cnt)
-            let frame = obj.gif.frames[k].image
-            this.ctx.drawImage(frame, this.x, this.y + obj.offset_y, this.width * obj.scale, this.height * obj.scale)
+
+            if(this.direction === 1) {
+                let k = parseInt(this.frame_current_cnt / obj.frame_rate) % obj.frame_cnt
+                let frame = obj.gif.frames[k].image
+                this.ctx.drawImage(frame, this.x, this.y + obj.offset_y, this.width * obj.scale, this.height * obj.scale)
+            }else{
+                this.ctx.save()
+                this.ctx.scale(-1, 1)
+                this.ctx.translate(-this.root.gameMap.$canvas.width(), 0)
+
+                let k = parseInt(this.frame_current_cnt / obj.frame_rate) % obj.frame_cnt
+                let frame = obj.gif.frames[k].image
+                this.ctx.drawImage(frame, this.root.gameMap.$canvas.width() - this.x, this.y + obj.offset_y, this.width * obj.scale, this.height * obj.scale)
+
+                this.ctx.restore()
+            }
+            console.log(this.direction, this.x)
+        }
+        if(status === 4){
+            // console.log(this.frame_current_cnt, obj.frame_rate, obj.frame_cnt)
+            if(this.frame_current_cnt === obj.frame_rate * (obj.frame_cnt - 1)){
+                this.status = 0
+                this.frame_current_cnt = 0
+            }
         }
         ++this.frame_current_cnt
     }

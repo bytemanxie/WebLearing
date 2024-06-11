@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="监听键盘输入，人物角色的渲染">
-      <change afterPath="$PROJECT_DIR$/acwing/kof/static/images/lesson/zhuangtaiji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/kof/static/js/utils/gif.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/lib/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/01-Vue基础语法/lib/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/lib/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue实战/code/01_Learn_Vue_Basic/lib/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/controller/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/controller/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/game_map/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/game_map/base.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/player/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/player/base.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/player/kyo.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/player/kyo.js" afterDir="false" />
     </list>
@@ -328,7 +321,7 @@
       <workItem from="1717770633862" duration="1192000" />
       <workItem from="1717813441091" duration="15150000" />
       <workItem from="1717904022225" duration="11405000" />
-      <workItem from="1718069374974" duration="1132000" />
+      <workItem from="1718069374974" duration="7521000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -538,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717915148450</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="监听键盘输入，人物角色的渲染">
+      <option name="closed" value="true" />
+      <created>1718075115046</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1718075115046</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

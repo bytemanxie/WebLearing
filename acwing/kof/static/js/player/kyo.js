@@ -19,16 +19,19 @@ export class Kyo extends Player {
             this.animations.set(i, {
                 gif: gif,
                 frame_cnt: 0,//总图片数量
-                frame_rate: 0,//帧率
+                frame_rate: 5,//帧率
                 offset_y: this.offsets[i],//y轴偏移
                 loaded: false,
-                scale: 0.5,//缩放比例
+                scale: 0.8,//缩放比例
 
             })
 
             gif.onload = () => {
                 let obj = outer.animations.get(i)
                 obj.frame_cnt = gif.frames.length
+                if(i === 3){
+                    obj.frame_rate = 4
+                }
                 obj.loaded = true
             }
         }
