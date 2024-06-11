@@ -141,7 +141,7 @@ export class Player extends AcGameObject {
 
                 let k = parseInt(this.frame_current_cnt / obj.frame_rate) % obj.frame_cnt
                 let frame = obj.gif.frames[k].image
-                this.ctx.drawImage(frame, this.root.gameMap.$canvas.width() - this.x, this.y + obj.offset_y, this.width * obj.scale, this.height * obj.scale)
+                this.ctx.drawImage(frame, this.root.gameMap.$canvas.width() - this.width - this.x, this.y + obj.offset_y, this.width * obj.scale, this.height * obj.scale)
 
                 this.ctx.restore()
             }
