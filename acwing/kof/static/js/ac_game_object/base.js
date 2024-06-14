@@ -38,6 +38,7 @@ let AC_GAME_OBJECTS_FRAME = (timestamp) => {
         }
     }
     last_timestamp  = timestamp;
+    // console.log('frame');
     requestAnimationFrame(AC_GAME_OBJECTS_FRAME);
 }
 

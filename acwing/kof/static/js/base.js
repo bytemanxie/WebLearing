@@ -13,16 +13,16 @@ class KOF {
                 id: 0,
                 x: 100,
                 y: 100,
-                width: 200,
-                height: 200,
+                width: 150,
+                height: 220,
                 color: "red"
             }),
             new Kyo(this, {
                 id: 1,
                 x: 800,
                 y: 100,
-                width: 200,
-                height: 200,
+                width: 150,
+                height: 220,
                 color: "blue"
             })
         ]

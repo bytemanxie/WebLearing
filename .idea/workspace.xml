@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="人物移动方向" />
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="解决人物坐标问题">
+      <change afterPath="$PROJECT_DIR$/acwing/kof/static/images/lesson/jiaoji.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/kof/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/ac_game_object/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/ac_game_object/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/controller/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/controller/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/game_map/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/game_map/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/player/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/player/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/player/kyo.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/player/kyo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/kof/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/template/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +122,24 @@
     <configuration name="数组遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/数组遍历.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="异步函数写法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/异步asyv-await/异步函数写法.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="箭头函数的简写.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/this的指向/箭头函数的简写.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="函数的剩余参数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/函数的剩余参数.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="侧边栏展示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/DOM实战案例/侧边栏展示.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="普通对象的原型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/普通对象的原型.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="解构赋值.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/解构赋值.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -136,24 +165,6 @@
       <method v="2" />
     </configuration>
     <configuration name="事件处理的方案选择.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Dom中的事件处理/事件处理的方案选择.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="异步函数写法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/异步asyv-await/异步函数写法.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="箭头函数的简写.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/this的指向/箭头函数的简写.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="函数的剩余参数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/函数的剩余参数.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="侧边栏展示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/DOM实战案例/侧边栏展示.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="普通对象的原型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/普通对象的原型.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -317,7 +328,10 @@
       <workItem from="1717770633862" duration="1192000" />
       <workItem from="1717813441091" duration="15150000" />
       <workItem from="1717904022225" duration="11405000" />
-      <workItem from="1718069374974" duration="7833000" />
+      <workItem from="1718069374974" duration="12938000" />
+      <workItem from="1718158111042" duration="2511000" />
+      <workItem from="1718248814634" duration="2620000" />
+      <workItem from="1718333149156" duration="18335000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -543,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718084120403</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="解决人物坐标问题">
+      <option name="closed" value="true" />
+      <created>1718084283150</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1718084283150</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="插槽学习" />
     <MESSAGE value="非父子通信事件练习" />
     <MESSAGE value="hooks use_count练习" />
     <MESSAGE value="阶段房源练习" />
@@ -586,6 +607,7 @@
     <MESSAGE value="拳皇地图，角色，键盘输入" />
     <MESSAGE value="监听键盘输入，人物角色的渲染" />
     <MESSAGE value="人物移动方向" />
-    <option name="LAST_COMMIT_MESSAGE" value="人物移动方向" />
+    <MESSAGE value="解决人物坐标问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决人物坐标问题" />
   </component>
 </project>

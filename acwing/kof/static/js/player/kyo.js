@@ -22,7 +22,7 @@ export class Kyo extends Player {
                 frame_rate: 5,//帧率
                 offset_y: this.offsets[i],//y轴偏移
                 loaded: false,
-                scale: 0.8,//缩放比例
+                scale: 1.2,//缩放比例
 
             })
 
