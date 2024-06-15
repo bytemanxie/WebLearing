@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="解决人物坐标问题">
-      <change afterPath="$PROJECT_DIR$/acwing/kof/static/images/lesson/jiaoji.png" afterDir="false" />
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="完成js拳皇">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/kof/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/ac_game_object/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/ac_game_object/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/controller/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/controller/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/game_map/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/game_map/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/player/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/player/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/kof/static/js/player/kyo.js" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/static/js/player/kyo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/acwing/kof/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/kof/template/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +114,27 @@
     <configuration name="数组遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/数组遍历.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="逻辑判断.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/js基本语法/逻辑判断.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="数组与对象的解构.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/数组与对象的解构.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="纯函数的概念理解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/纯函数的概念理解.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="函数对象原型关系.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/函数对象原型关系.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="元素隐藏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/继承-层叠-类型/元素隐藏.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="暂时性死区.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/ES6补充/暂时性死区.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="事件处理的方案选择.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Dom中的事件处理/事件处理的方案选择.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="异步函数写法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/vue学前教育/异步asyv-await/异步函数写法.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -144,27 +157,6 @@
       <method v="2" />
     </configuration>
     <configuration name="原始类型调用方法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/原始类型调用方法.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="逻辑判断.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/js基本语法/逻辑判断.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="数组与对象的解构.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/数组与对象的解构.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="纯函数的概念理解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/纯函数的概念理解.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="函数对象原型关系.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象ES6的使用/函数对象原型关系.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="元素隐藏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/css_learn/继承-层叠-类型/元素隐藏.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="暂时性死区.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/ES6补充/暂时性死区.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="事件处理的方案选择.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/Dom中的事件处理/事件处理的方案选择.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -331,7 +323,8 @@
       <workItem from="1718069374974" duration="12938000" />
       <workItem from="1718158111042" duration="2511000" />
       <workItem from="1718248814634" duration="2620000" />
-      <workItem from="1718333149156" duration="18335000" />
+      <workItem from="1718333149156" duration="20094000" />
+      <workItem from="1718451182799" duration="847000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -565,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718084283150</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="完成js拳皇">
+      <option name="closed" value="true" />
+      <created>1718357788328</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1718357788328</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="非父子通信事件练习" />
     <MESSAGE value="hooks use_count练习" />
     <MESSAGE value="阶段房源练习" />
     <MESSAGE value="项目重置css" />
@@ -608,6 +608,7 @@
     <MESSAGE value="监听键盘输入，人物角色的渲染" />
     <MESSAGE value="人物移动方向" />
     <MESSAGE value="解决人物坐标问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决人物坐标问题" />
+    <MESSAGE value="完成js拳皇" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成js拳皇" />
   </component>
 </project>
