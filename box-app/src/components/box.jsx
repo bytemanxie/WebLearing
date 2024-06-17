@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Box extends Component {
     state = { 
-        x: 0,
+        // x: this.props.x,
         colors: ["red", "blue", "green", "yellow"],
     } 
 
@@ -15,41 +15,32 @@ class Box extends Component {
             textAlign: "center",
             lineHeight: "50px",
             borderRadius: "5px",
-            marginLeft: this.state.x,
+            marginLeft: this.props.box.x,
         }
     
-        if(parseInt(this.state.x / 10) & 1) style.backgroundColor = "red"
+        if(parseInt(this.props.box.x / 10) & 1) style.backgroundColor = "red"
         else style.backgroundColor = "lightblue"
         return style
     }
 
-    HandleClickLeft = (step) => {
-        // ++this.state.x
-        // console.log("left", this.state.x)
-        this.setState({x: this.state.x - step})
-    }
-
-    HandleClickRight= (step) => {
-        // --this.state.x
-        // console.log("right", this.state.x)
-        this.setState({x: this.state.x + step})
-    }
-
     render() { 
+        console.log(this.props)
         return(
             <React.Fragment>
-                <h1>Box App</h1>
+                {this.props.children}
                 <div style={this.getstyle()}>{this.toString()}</div>
-                <button onClick={() => this.HandleClickLeft(10)} className="btn btn-primary m-2">left</button>
-                <button onClick={() => this.HandleClickRight(10)} className="btn btn-success m-2">right</button>
-                {this.state.colors.length === 4 && <p>four colors</p>}
-                {this.state.colors.map(color => <div key={color}>{color}</div>)}
+                <button onClick={this.props.onClickLeft} className="btn btn-primary m-2">left</button>
+                <button onClick={this.props.onClickRight} className="btn btn-success m-2">right</button>
+                <button onClick={() => this.props.onDelete(this.props.id)} className='btn btn-danger m-2'>Delete</button>
+                {/* {this.state.colors.length === 4 && <p>four colors</p>} */}
+                {/* {this.state.colors.map(color => <div key={color}>{color}</div>)} */}
             </React.Fragment>
         )
     }
 
     toString(){
-        const {x} = this.state
+        const x = this.props.box.x
+        // console.log(this.props.box.x)
         return `x: ${x}`
     }
 }
