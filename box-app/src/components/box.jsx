@@ -20,11 +20,13 @@ class Box extends Component {
     
         if(parseInt(this.props.box.x / 10) & 1) style.backgroundColor = "red"
         else style.backgroundColor = "lightblue"
+
+        if(this.props.x === 0) style.backgroundColor = "orange"
         return style
     }
 
     render() { 
-        console.log(this.props)
+        // console.log(this.props)
         return(
             <React.Fragment>
                 {this.props.children}
