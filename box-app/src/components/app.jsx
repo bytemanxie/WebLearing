@@ -13,6 +13,24 @@ class App extends Component {
         ]
     } 
 
+    componentDidMount(){
+        console.log('app mounted')
+    }
+
+    componentDidUpdate(prevProps, prevState){
+        console.log('app updated')
+        console.log(prevProps, prevState)
+    }
+
+    componentWillUnmount(){
+        console.log('app unmounted')
+    }
+
+    constructor(){
+        super()
+        console.log('app constructor')
+    }
+
     HandleClickLeft = (box) => {
         // console.log('left')
         const boxes = [...this.state.boxes]
@@ -45,6 +63,7 @@ class App extends Component {
     } 
     
     render() { 
+        console.log('app render')
         return (
             <React.Fragment>
                 <NavBar
