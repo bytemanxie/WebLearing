@@ -26,16 +26,20 @@ body{
     color: white; /* 文字颜色 */
     padding: 10px;
     border-radius: 5px;
-    min-height: 100px;
+    min-height: 150px;
     font-size: 1.25rem; /* 字体大小 */
     box-shadow: inset 0 -4px 5px rgba(0, 0, 0, 0.2); /* 内阴影 */
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
+    text-align: right;
 }
 
 .last-output, .cur-output {
     line-height: 40px; /* 行高 */
+    height: 40px;
+    width: 100%;
+
     /*换行*/
     word-wrap: break-word;  /* 允许在单词内换行 */
     word-break: break-all;
