@@ -17,20 +17,20 @@ class Calculate extends Component {
                         <button className="button">AC</button>
                         <button className="button span2">Del</button>
                         <button className="button operator">÷</button>
-                        <DigitButton digit={'7'}/>
-                        <DigitButton digit={'8'}/>
-                        <DigitButton digit={'9'}/>
+                        <DigitButton digit={'7'} className='button'/>
+                        <DigitButton digit={'8'} className='button'/>
+                        <DigitButton digit={'9'} className='button'/>
                         <button className="button operator">x</button>
-                        <DigitButton digit={'4'}/>
-                        <DigitButton digit={'5'}/>
-                        <DigitButton digit={'6'}/>
+                        <DigitButton digit={'4'} className='button'/>
+                        <DigitButton digit={'5'} className='button'/>
+                        <DigitButton digit={'6'} className='button'/>
                         <button className="button operator">-</button>
-                        <DigitButton digit={'1'}/>
-                        <DigitButton digit={'2'}/>
-                        <DigitButton digit={'3'}/>
+                        <DigitButton digit={'1'} className='button'/>
+                        <DigitButton digit={'2'} className='button'/>
+                        <DigitButton digit={'3'} className='button'/>
                         <button className="button operator">+</button>
-                        <DigitButton digit={'0'}/>
-                        <DigitButton digit={'.'}/>
+                        <DigitButton digit={'0'} className='button'/>
+                        <DigitButton digit={'.'} className='button'/>
                         <button className="button operator span2">=</button>
                     </div>   
                 </BaseCard>

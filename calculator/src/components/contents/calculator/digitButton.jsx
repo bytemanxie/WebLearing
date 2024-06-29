@@ -6,7 +6,7 @@ class DigitButton extends Component {
     state = {  } 
     render() { 
         return (
-            <button onClick={() => this.props.add_digit(this.props.digit)}>
+            <button onClick={() => this.props.add_digit(this.props.digit)} className={this.props.className}>
                 {this.props.digit}
             </button>
         );
