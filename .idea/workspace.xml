@@ -6,6 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="完成js拳皇">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspace/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspace/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspace/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspace/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/src/components/NavBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspace/src/components/UserProfileInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/src/components/UserProfileInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspace/src/components/UserProfilePosts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/src/components/UserProfilePosts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspace/src/components/UserProfileWrite.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/src/components/UserProfileWrite.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspace/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspace/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspace/src/views/LoginView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/src/views/LoginView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspace/src/views/RegisterView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/src/views/RegisterView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspace/src/views/UserProfileView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/src/views/UserProfileView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspace/src/views/userList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/src/views/userList.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +104,9 @@
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
         <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.storybook" value="false" />
       </map>
     </option>
   </component>
@@ -119,12 +134,6 @@
       <method v="2" />
     </configuration>
     <configuration name="数组遍历.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/常见内置类/数组遍历.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="侧边栏展示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/DOM实战案例/侧边栏展示.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="普通对象的原型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/普通对象的原型.html" useBuiltInWebServerPort="true">
@@ -164,6 +173,12 @@
       <method v="2" />
     </configuration>
     <configuration name="函数的剩余参数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/函数和对象的增强/函数的剩余参数.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="原型链实现继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js高级/面向对象原型继承/原型链实现继承.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="侧边栏展示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Weblearing/js_learn/DOM实战案例/侧边栏展示.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -337,6 +352,9 @@
       <workItem from="1718601133268" duration="1789000" />
       <workItem from="1718672674189" duration="10000" />
       <workItem from="1718718195900" duration="4000" />
+      <workItem from="1719798766179" duration="22000" />
+      <workItem from="1721788477236" duration="7653000" />
+      <workItem from="1721805376458" duration="19819000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />

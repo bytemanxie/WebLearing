@@ -3,10 +3,10 @@
     <div class="card-body">
         <div class="row">
         <div class="col-3">
-            <img class="img-fluid" src="https://cdn.acwing.com/media/user/profile/photo/220177_lg_5ce662610f.jpg" alt="">
+            <img class="img-fluid" :src="user.photo" alt="">
         </div>
         <div class="col-9">
-            <div>{{fullName}} </div>
+            <div>{{user.name}} </div>
             <div>粉丝数：{{user.fans}} </div>
             <button @click="follow" v-if="!user.is_followed" type="button" class="btn btn-secondary bt-sm">+ 关注</button>
             <button @click="unfollow" v-if="user.is_followed" type="button" class="btn btn-secondary bt-sm">取消关注</button>
@@ -17,33 +17,27 @@
     
 </template>
 
-<script>
-import {computed} from 'vue'
-export default {
-    name:'UserProfileinfo',
-    props:{
-        user:{
-            type:Object,
-            required:true,
-        },
-    },
-    setup(props, context){
-        let fullName = computed(() => `${props.user.first_name} ${props.user.last_name}`)
+<script setup>
+import { defineProps, defineEmits } from 'vue'
 
-        const follow = () => {
-            context.emit('follow')
-        }
+defineProps({
+  user: {
+    type: Object,
+    required: true,
+  },
+})
 
-        const unfollow = () => {
-            context.emit('unfollow')
-        }
+// 定义事件发射器
+const emit = defineEmits(['follow', 'unfollow'])
 
-        return({
-            fullName,
-            follow,
-            unfollow
-        })
-    }
+// 跟随函数
+const follow = () => {
+  emit('follow')
+}
+
+// 取消跟随函数
+const unfollow = () => {
+  emit('unfollow')
 }
 </script>
 
