@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="完成js拳皇">
+    <list default="true" id="0dc36b96-ac1b-4e42-805c-8437eb29e3d7" name="更改" comment="注册">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myspace/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myspace/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myspace/package.json" afterDir="false" />
@@ -354,7 +354,7 @@
       <workItem from="1718718195900" duration="4000" />
       <workItem from="1719798766179" duration="22000" />
       <workItem from="1721788477236" duration="7653000" />
-      <workItem from="1721805376458" duration="19819000" />
+      <workItem from="1721805376458" duration="19872000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -596,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718357788328</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="注册">
+      <option name="closed" value="true" />
+      <created>1721924959646</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1721924959647</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hooks use_count练习" />
     <MESSAGE value="阶段房源练习" />
     <MESSAGE value="项目重置css" />
     <MESSAGE value="路由状态管理配置" />
@@ -639,6 +646,7 @@
     <MESSAGE value="人物移动方向" />
     <MESSAGE value="解决人物坐标问题" />
     <MESSAGE value="完成js拳皇" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成js拳皇" />
+    <MESSAGE value="注册" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册" />
   </component>
 </project>
